@@ -1,0 +1,162 @@
+[
+  {
+    "repo": "CVEForecast",
+    "workflow": "CVE Forecast Daily Update",
+    "run_id": 25379624424,
+    "created_at": "2026-05-05T13:34:40Z",
+    "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/25379624424",
+    "error": "Process completed with exit code 128."
+  },
+  {
+    "repo": "CVEForecast",
+    "workflow": "CVE Forecast Daily Update",
+    "run_id": 25378216707,
+    "created_at": "2026-05-05T13:07:09Z",
+    "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/25378216707",
+    "error": "Process completed with exit code 1."
+  },
+  {
+    "repo": "CVEForecast",
+    "workflow": "Tests",
+    "run_id": 25377993516,
+    "created_at": "2026-05-05T13:02:43Z",
+    "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/25377993516",
+    "error": "Process completed with exit code 1."
+  },
+  {
+    "repo": "CVEForecast",
+    "workflow": "Tests",
+    "run_id": 25377282981,
+    "created_at": "2026-05-05T12:48:13Z",
+    "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/25377282981",
+    "error": "Process completed with exit code 1."
+  },
+  {
+    "repo": "CVEForecast",
+    "workflow": "CVE Forecast Daily Update",
+    "run_id": 25073725056,
+    "created_at": "2026-04-28T19:38:48Z",
+    "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/25073725056",
+    "error": "Process completed with exit code 128."
+  },
+  {
+    "repo": "CVEForecast",
+    "workflow": "Monthly Hyperparameter Tuning",
+    "run_id": 25067167016,
+    "created_at": "2026-04-28T17:13:20Z",
+    "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/25067167016",
+    "error": "Process completed with exit code 1."
+  },
+  {
+    "repo": "CVEForecast",
+    "workflow": "Tests",
+    "run_id": 25067167033,
+    "created_at": "2026-04-28T17:13:20Z",
+    "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/25067167033",
+    "error": "Process completed with exit code 1."
+  },
+  {
+    "repo": "CVEForecast",
+    "workflow": "Monthly Hyperparameter Tuning",
+    "run_id": 25066969520,
+    "created_at": "2026-04-28T17:09:09Z",
+    "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/25066969520",
+    "error": "Process completed with exit code 1."
+  },
+  {
+    "repo": "CVEForecast",
+    "workflow": "CVE Forecast Daily Update",
+    "run_id": 25066969529,
+    "created_at": "2026-04-28T17:09:09Z",
+    "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/25066969529",
+    "error": "Process completed with exit code 1."
+  },
+  {
+    "repo": "CVE.icu-Splunk",
+    "workflow": "CI (v1.x - Splunk 9)",
+    "run_id": 24640325787,
+    "created_at": "2026-04-19T22:09:24Z",
+    "html_url": "https://github.com/RogoLabs/CVE.icu-Splunk/actions/runs/24640325787",
+    "error": "Process completed with exit code 1."
+  },
+  {
+    "repo": "CVE.icu-Splunk",
+    "workflow": "CI (v1.x - Splunk 9)",
+    "run_id": 24639824277,
+    "created_at": "2026-04-19T21:42:52Z",
+    "html_url": "https://github.com/RogoLabs/CVE.icu-Splunk/actions/runs/24639824277",
+    "error": "Process completed with exit code 1."
+  },
+  {
+    "repo": "CVE.icu-Splunk",
+    "workflow": "CI",
+    "run_id": 24528969297,
+    "created_at": "2026-04-16T19:10:53Z",
+    "html_url": "https://github.com/RogoLabs/CVE.icu-Splunk/actions/runs/24528969297",
+    "error": "Process completed with exit code 1."
+  },
+  {
+    "repo": "CVE.icu-Splunk",
+    "workflow": "CI",
+    "run_id": 24519371234,
+    "created_at": "2026-04-16T15:37:17Z",
+    "html_url": "https://github.com/RogoLabs/CVE.icu-Splunk/actions/runs/24519371234",
+    "error": "Process completed with exit code 1."
+  },
+  {
+    "repo": "CVE.icu-Splunk",
+    "workflow": "CI",
+    "run_id": 24519113594,
+    "created_at": "2026-04-16T15:32:03Z",
+    "html_url": "https://github.com/RogoLabs/CVE.icu-Splunk/actions/runs/24519113594",
+    "error": "Process completed with exit code 1."
+  },
+  {
+    "repo": "CVE.icu-Splunk",
+    "workflow": "CI",
+    "run_id": 24518849586,
+    "created_at": "2026-04-16T15:26:35Z",
+    "html_url": "https://github.com/RogoLabs/CVE.icu-Splunk/actions/runs/24518849586",
+    "error": "Process completed with exit code 1."
+  },
+  {
+    "repo": "CVE.icu-Splunk",
+    "workflow": "CI",
+    "run_id": 24518719112,
+    "created_at": "2026-04-16T15:23:54Z",
+    "html_url": "https://github.com/RogoLabs/CVE.icu-Splunk/actions/runs/24518719112",
+    "error": "Process completed with exit code 2."
+  },
+  {
+    "repo": "CVE.icu-Splunk",
+    "workflow": "CI",
+    "run_id": 24516438802,
+    "created_at": "2026-04-16T14:38:27Z",
+    "html_url": "https://github.com/RogoLabs/CVE.icu-Splunk/actions/runs/24516438802",
+    "error": "Process completed with exit code 1."
+  },
+  {
+    "repo": "CVE.icu-Splunk",
+    "workflow": "CI",
+    "run_id": 24516340748,
+    "created_at": "2026-04-16T14:36:30Z",
+    "html_url": "https://github.com/RogoLabs/CVE.icu-Splunk/actions/runs/24516340748",
+    "error": "Process completed with exit code 1."
+  },
+  {
+    "repo": "CVE.icu-Splunk",
+    "workflow": "CI",
+    "run_id": 24516228927,
+    "created_at": "2026-04-16T14:34:20Z",
+    "html_url": "https://github.com/RogoLabs/CVE.icu-Splunk/actions/runs/24516228927",
+    "error": "The strategy configuration was canceled because \"unit-tests._3_11\" failed"
+  },
+  {
+    "repo": "CVE-Updates",
+    "workflow": "CVE Update Report",
+    "run_id": 24381615449,
+    "created_at": "2026-04-14T04:53:28Z",
+    "html_url": "https://github.com/RogoLabs/CVE-Updates/actions/runs/24381615449",
+    "error": "Action failed with \"The process '/usr/bin/git' failed with exit code 1\""
+  }
+]
