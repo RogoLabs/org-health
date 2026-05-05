@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RogoLabs Org Health</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+  </head>
+  <body class="bg-gray-900 text-gray-100 min-h-screen">
+    <div
+      x-data="dashboard()"
+      x-init="init()"
+      class="max-w-7xl mx-auto px-4 py-8"
+    >
+      <!-- Header -->
+      <header class="mb-8">
+        <h1 class="text-3xl font-bold text-white">RogoLabs Org Health</h1>
+        <p class="text-gray-400 mt-1">
+          Last updated:
+          <span
+            x-text="meta.updated_at ? new Date(meta.updated_at).toLocaleString() : 'Loading...'"
+          ></span>
+        </p>
+      </header>
+
+      <!-- Contention Alerts -->
+      <template x-if="contention.length > 0">
+        <div class="bg-red-900/50 border border-red-700 rounded-lg p-4 mb-8">
+          <h2 class="text-lg font-semibold text-red-300 mb-2">
+            Runner Contention Events
+          </h2>
+          <p class="text-sm text-red-200 mb-3">
+            Jobs that timed out waiting for a GitHub-hosted runner:
+          </p>
+          <template x-for="item in contention" :key="item.run_id">
+            <div
+              class="flex items-center justify-between py-2 border-t border-red-800"
+            >
+              <div>
+                <span
+                  class="font-medium text-red-100"
+                  x-text="item.repo"
+                ></span>
+                <span class="text-red-300 mx-2">/</span>
+                <span class="text-red-200" x-text="item.workflow"></span>
+              </div>
+              <div class="flex items-center gap-4">
+                <span
+                  class="text-sm text-red-400"
+                  x-text="new Date(item.created_at).toLocaleDateString()"
+                ></span>
+                <a
+                  :href="item.html_url"
+                  target="_blank"
+                  class="text-red-300 hover:text-red-100 text-sm underline"
+                  >View</a
+                >
+              </div>
+            </div>
+          </template>
+        </div>
+      </template>
+
+      <!-- Minutes Overview -->
+      <section class="mb-8">
+        <h2 class="text-xl font-semibold mb-4">Actions Minutes by Repo</h2>
+        <div class="bg-gray-800 rounded-lg p-4">
+          <canvas id="minutesChart" height="100"></canvas>
+        </div>
+      </section>
+
+      <!-- Workflow Health -->
+      <section class="mb-8">
+        <h2 class="text-xl font-semibold mb-4">
+          Workflow Health (Last 30 Days)
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <template
+            x-for="[repo, stats] in Object.entries(workflowHealth)"
+            :key="repo"
+          >
+            <div class="bg-gray-800 rounded-lg p-4">
+              <div class="flex items-center justify-between mb-2">
+                <h3 class="font-medium text-white truncate" x-text="repo"></h3>
+                <span
+                  class="text-2xl font-bold"
+                  :class="stats.success_rate > 90 ? 'text-green-400' : stats.success_rate > 70 ? 'text-yellow-400' : 'text-red-400'"
+                  x-text="stats.success_rate + '%'"
+                ></span>
+              </div>
+              <div class="flex gap-4 text-sm text-gray-400">
+                <span x-text="stats.success + ' passed'"></span>
+                <span x-text="stats.failure + ' failed'"></span>
+                <span x-text="stats.total + ' total'"></span>
+              </div>
+            </div>
+          </template>
+        </div>
+      </section>
+
+      <!-- Run Durations -->
+      <section class="mb-8">
+        <h2 class="text-xl font-semibold mb-4">Average Run Durations</h2>
+        <div class="bg-gray-800 rounded-lg overflow-hidden">
+          <table class="w-full text-sm">
+            <thead class="bg-gray-700">
+              <tr>
+                <th class="text-left px-4 py-2">Repo</th>
+                <th class="text-left px-4 py-2">Workflow</th>
+                <th class="text-right px-4 py-2">Avg Duration</th>
+                <th class="text-right px-4 py-2">Max</th>
+                <th class="text-right px-4 py-2">Runs</th>
+              </tr>
+            </thead>
+            <tbody>
+              <template
+                x-for="row in durationRows"
+                :key="row.repo + row.workflow"
+              >
+                <tr class="border-t border-gray-700">
+                  <td class="px-4 py-2" x-text="row.repo"></td>
+                  <td class="px-4 py-2" x-text="row.workflow"></td>
+                  <td
+                    class="px-4 py-2 text-right"
+                    :class="row.avg_seconds > 600 ? 'text-yellow-400' : 'text-gray-300'"
+                    x-text="formatDuration(row.avg_seconds)"
+                  ></td>
+                  <td
+                    class="px-4 py-2 text-right text-gray-400"
+                    x-text="formatDuration(row.max_seconds)"
+                  ></td>
+                  <td
+                    class="px-4 py-2 text-right text-gray-400"
+                    x-text="row.run_count"
+                  ></td>
+                </tr>
+              </template>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Storage -->
+      <section class="mb-8">
+        <h2 class="text-xl font-semibold mb-4">Storage Usage</h2>
+        <div class="bg-gray-800 rounded-lg overflow-hidden">
+          <table class="w-full text-sm">
+            <thead class="bg-gray-700">
+              <tr>
+                <th class="text-left px-4 py-2">Repo</th>
+                <th class="text-right px-4 py-2">GB-Hours (Latest Month)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <template x-for="[repo, gbh] in storageRows" :key="repo">
+                <tr class="border-t border-gray-700">
+                  <td class="px-4 py-2" x-text="repo"></td>
+                  <td
+                    class="px-4 py-2 text-right text-gray-300"
+                    x-text="gbh.toFixed(1)"
+                  ></td>
+                </tr>
+              </template>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Recent Failures -->
+      <section class="mb-8">
+        <h2 class="text-xl font-semibold mb-4">Recent Failures</h2>
+        <div class="space-y-2">
+          <template x-for="item in failures.slice(0, 20)" :key="item.run_id">
+            <div
+              class="bg-gray-800 rounded-lg p-3 flex items-center justify-between"
+            >
+              <div class="flex-1 min-w-0">
+                <div class="flex items-center gap-2">
+                  <span
+                    class="font-medium text-white"
+                    x-text="item.repo"
+                  ></span>
+                  <span class="text-gray-500">/</span>
+                  <span class="text-gray-300" x-text="item.workflow"></span>
+                </div>
+                <p
+                  class="text-sm text-gray-400 truncate mt-1"
+                  x-text="item.error"
+                ></p>
+              </div>
+              <div class="flex items-center gap-4 ml-4">
+                <span
+                  class="text-sm text-gray-500 whitespace-nowrap"
+                  x-text="new Date(item.created_at).toLocaleDateString()"
+                ></span>
+                <a
+                  :href="item.html_url"
+                  target="_blank"
+                  class="text-blue-400 hover:text-blue-300 text-sm whitespace-nowrap"
+                  >View Run</a
+                >
+              </div>
+            </div>
+          </template>
+          <template x-if="failures.length === 0">
+            <p class="text-gray-500 text-center py-4">No recent failures</p>
+          </template>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      function dashboard() {
+        return {
+          meta: {},
+          billing: {},
+          workflowHealth: {},
+          durations: {},
+          failures: [],
+          contention: [],
+          durationRows: [],
+          storageRows: [],
+
+          async init() {
+            const [meta, billing, health, durations, failures, contention] =
+              await Promise.all([
+                this.fetchJson("data/meta.json"),
+                this.fetchJson("data/billing.json"),
+                this.fetchJson("data/workflow-health.json"),
+                this.fetchJson("data/durations.json"),
+                this.fetchJson("data/failures.json"),
+                this.fetchJson("data/contention.json"),
+              ]);
+
+            this.meta = meta;
+            this.billing = billing;
+            this.workflowHealth = health;
+            this.durations = durations;
+            this.failures = failures;
+            this.contention = contention;
+
+            this.buildDurationRows();
+            this.buildStorageRows();
+            this.$nextTick(() => this.renderMinutesChart());
+          },
+
+          async fetchJson(path) {
+            try {
+              const resp = await fetch(path);
+              if (!resp.ok) return {};
+              return await resp.json();
+            } catch {
+              return {};
+            }
+          },
+
+          buildDurationRows() {
+            const rows = [];
+            for (const [repo, workflows] of Object.entries(this.durations)) {
+              for (const [workflow, stats] of Object.entries(workflows)) {
+                rows.push({ repo, workflow, ...stats });
+              }
+            }
+            rows.sort((a, b) => b.avg_seconds - a.avg_seconds);
+            this.durationRows = rows;
+          },
+
+          buildStorageRows() {
+            const storage = this.billing.storage || {};
+            const rows = [];
+            for (const [repo, months] of Object.entries(storage)) {
+              const latestMonth = Object.keys(months).sort().pop();
+              if (latestMonth) {
+                rows.push([repo, months[latestMonth]]);
+              }
+            }
+            rows.sort((a, b) => b[1] - a[1]);
+            this.storageRows = rows;
+          },
+
+          renderMinutesChart() {
+            const minutes = this.billing.minutes || {};
+            const allMonths = new Set();
+            for (const months of Object.values(minutes)) {
+              Object.keys(months).forEach((m) => allMonths.add(m));
+            }
+            const labels = [...allMonths].sort();
+
+            const colors = [
+              "#3b82f6",
+              "#ef4444",
+              "#22c55e",
+              "#f59e0b",
+              "#8b5cf6",
+              "#06b6d4",
+              "#ec4899",
+              "#14b8a6",
+              "#f97316",
+              "#6366f1",
+            ];
+
+            const datasets = Object.entries(minutes)
+              .map(([repo, months], i) => ({
+                label: repo,
+                data: labels.map((m) => months[m] || 0),
+                backgroundColor: colors[i % colors.length],
+              }))
+              .sort((a, b) => {
+                const sumA = a.data.reduce((s, v) => s + v, 0);
+                const sumB = b.data.reduce((s, v) => s + v, 0);
+                return sumB - sumA;
+              });
+
+            new Chart(document.getElementById("minutesChart"), {
+              type: "bar",
+              data: { labels, datasets },
+              options: {
+                responsive: true,
+                plugins: {
+                  legend: { labels: { color: "#9ca3af" } },
+                },
+                scales: {
+                  x: { stacked: true, ticks: { color: "#9ca3af" } },
+                  y: {
+                    stacked: true,
+                    ticks: { color: "#9ca3af" },
+                    title: { display: true, text: "Minutes", color: "#9ca3af" },
+                  },
+                },
+              },
+            });
+          },
+
+          formatDuration(seconds) {
+            if (seconds < 60) return Math.round(seconds) + "s";
+            if (seconds < 3600)
+              return (
+                Math.round(seconds / 60) + "m " + Math.round(seconds % 60) + "s"
+              );
+            return (
+              Math.floor(seconds / 3600) +
+              "h " +
+              Math.round((seconds % 3600) / 60) +
+              "m"
+            );
+          },
+        };
+      }
+    </script>
+  </body>
+</html>
