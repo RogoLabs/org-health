@@ -2,7 +2,7 @@ import json
 import os
 import urllib.request
 import urllib.error
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 ORG = "RogoLabs"
@@ -83,6 +83,35 @@ def collect_billing(org):
     return {"minutes": minutes, "storage": storage}
 
 
+def collect_workflow_health(org, repos):
+    since = (datetime.now(timezone.utc) - timedelta(days=30)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    health = {}
+
+    for repo in repos:
+        url = f"{BASE_URL}/repos/{org}/{repo}/actions/runs?created=%3E{since}&per_page=100"
+        try:
+            data = api_get(url)
+        except urllib.error.HTTPError:
+            continue
+
+        runs = data.get("workflow_runs", [])
+        total = len(runs)
+        success = sum(1 for r in runs if r["conclusion"] == "success")
+        failure = sum(1 for r in runs if r["conclusion"] == "failure")
+        cancelled = sum(1 for r in runs if r["conclusion"] == "cancelled")
+
+        if total > 0:
+            health[repo] = {
+                "total": total,
+                "success": success,
+                "failure": failure,
+                "cancelled": cancelled,
+                "success_rate": round((success / total) * 100, 1),
+            }
+
+    return health
+
+
 def main():
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     repos = fetch_repos(ORG)
@@ -92,6 +121,10 @@ def main():
     billing = collect_billing(ORG)
     write_json(OUTPUT_DIR, "billing.json", billing)
     print(f"Billing: {len(billing['minutes'])} repos with minutes, {len(billing['storage'])} with storage")
+
+    health = collect_workflow_health(ORG, repos)
+    write_json(OUTPUT_DIR, "workflow-health.json", health)
+    print(f"Workflow health: {len(health)} repos with runs")
 
 
 if __name__ == "__main__":

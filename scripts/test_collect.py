@@ -69,3 +69,24 @@ def test_collect_billing_parses_usage_items():
 
     assert billing["minutes"]["CVE-Updates"]["2026-04"] == 36952.0
     assert billing["storage"]["GhostCVEs"]["2026-04"] == 1511.614
+
+
+def test_collect_workflow_health_counts_conclusions():
+    mock_runs = {
+        "total_count": 4,
+        "workflow_runs": [
+            {"conclusion": "success", "name": "CI"},
+            {"conclusion": "success", "name": "CI"},
+            {"conclusion": "failure", "name": "CI"},
+            {"conclusion": "cancelled", "name": "Deploy"},
+        ],
+    }
+
+    with patch("collect.api_get", return_value=mock_runs):
+        health = collect.collect_workflow_health("RogoLabs", ["my-repo"])
+
+    assert health["my-repo"]["total"] == 4
+    assert health["my-repo"]["success"] == 2
+    assert health["my-repo"]["failure"] == 1
+    assert health["my-repo"]["cancelled"] == 1
+    assert health["my-repo"]["success_rate"] == 50.0
