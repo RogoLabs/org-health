@@ -90,3 +90,29 @@ def test_collect_workflow_health_counts_conclusions():
     assert health["my-repo"]["failure"] == 1
     assert health["my-repo"]["cancelled"] == 1
     assert health["my-repo"]["success_rate"] == 50.0
+
+
+def test_collect_durations_calculates_averages():
+    mock_runs = {
+        "total_count": 2,
+        "workflow_runs": [
+            {
+                "name": "CI",
+                "conclusion": "success",
+                "run_started_at": "2026-05-01T10:00:00Z",
+                "updated_at": "2026-05-01T10:05:00Z",
+            },
+            {
+                "name": "CI",
+                "conclusion": "success",
+                "run_started_at": "2026-05-02T10:00:00Z",
+                "updated_at": "2026-05-02T10:03:00Z",
+            },
+        ],
+    }
+
+    with patch("collect.api_get", return_value=mock_runs):
+        durations = collect.collect_durations("RogoLabs", ["my-repo"])
+
+    assert durations["my-repo"]["CI"]["avg_seconds"] == 240.0
+    assert durations["my-repo"]["CI"]["run_count"] == 2

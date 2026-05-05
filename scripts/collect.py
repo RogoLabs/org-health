@@ -112,6 +112,40 @@ def collect_workflow_health(org, repos):
     return health
 
 
+def collect_durations(org, repos):
+    since = (datetime.now(timezone.utc) - timedelta(days=30)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    durations = {}
+
+    for repo in repos:
+        url = f"{BASE_URL}/repos/{org}/{repo}/actions/runs?created=%3E{since}&status=completed&per_page=100"
+        try:
+            data = api_get(url)
+        except urllib.error.HTTPError:
+            continue
+
+        workflows = {}
+        for run in data.get("workflow_runs", []):
+            if run["conclusion"] not in ("success", "failure"):
+                continue
+            name = run["name"]
+            start = datetime.fromisoformat(run["run_started_at"].replace("Z", "+00:00"))
+            end = datetime.fromisoformat(run["updated_at"].replace("Z", "+00:00"))
+            duration = (end - start).total_seconds()
+            workflows.setdefault(name, []).append(duration)
+
+        if workflows:
+            durations[repo] = {}
+            for wf_name, times in workflows.items():
+                durations[repo][wf_name] = {
+                    "avg_seconds": round(sum(times) / len(times), 1),
+                    "max_seconds": round(max(times), 1),
+                    "min_seconds": round(min(times), 1),
+                    "run_count": len(times),
+                }
+
+    return durations
+
+
 def main():
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     repos = fetch_repos(ORG)
@@ -125,6 +159,10 @@ def main():
     health = collect_workflow_health(ORG, repos)
     write_json(OUTPUT_DIR, "workflow-health.json", health)
     print(f"Workflow health: {len(health)} repos with runs")
+
+    durations = collect_durations(ORG, repos)
+    write_json(OUTPUT_DIR, "durations.json", durations)
+    print(f"Durations: {len(durations)} repos with timing data")
 
 
 if __name__ == "__main__":
