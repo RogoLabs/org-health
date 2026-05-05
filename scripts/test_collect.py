@@ -116,3 +116,99 @@ def test_collect_durations_calculates_averages():
 
     assert durations["my-repo"]["CI"]["avg_seconds"] == 240.0
     assert durations["my-repo"]["CI"]["run_count"] == 2
+
+
+def test_collect_failures_returns_recent_failures():
+    mock_runs = {
+        "total_count": 1,
+        "workflow_runs": [
+            {
+                "id": 123,
+                "name": "Update Data",
+                "conclusion": "failure",
+                "created_at": "2026-05-05T13:44:20Z",
+                "html_url": "https://github.com/RogoLabs/my-repo/actions/runs/123",
+            },
+        ],
+    }
+    mock_jobs = {
+        "jobs": [
+            {
+                "id": 456,
+                "name": "update",
+                "conclusion": "failure",
+            }
+        ]
+    }
+    mock_annotations = [
+        {
+            "annotation_level": "failure",
+            "message": "The job was not acquired by Runner of type hosted even after multiple attempts",
+        }
+    ]
+
+    def mock_api_get(url):
+        if "/actions/runs?" in url:
+            return mock_runs
+        if "/actions/runs/123/jobs" in url:
+            return mock_jobs
+        if "/check-runs/456/annotations" in url:
+            return mock_annotations
+        return {}
+
+    with patch("collect.api_get", side_effect=mock_api_get):
+        failures, contention = collect.collect_failures_and_contention("RogoLabs", ["my-repo"])
+
+    assert len(failures) == 1
+    assert failures[0]["repo"] == "my-repo"
+    assert failures[0]["workflow"] == "Update Data"
+    assert failures[0]["error"] == "The job was not acquired by Runner of type hosted even after multiple attempts"
+
+    assert len(contention) == 1
+    assert contention[0]["repo"] == "my-repo"
+
+
+def test_collect_failures_non_contention_error():
+    mock_runs = {
+        "total_count": 1,
+        "workflow_runs": [
+            {
+                "id": 789,
+                "name": "CI",
+                "conclusion": "failure",
+                "created_at": "2026-05-05T10:00:00Z",
+                "html_url": "https://github.com/RogoLabs/my-repo/actions/runs/789",
+            },
+        ],
+    }
+    mock_jobs = {
+        "jobs": [
+            {
+                "id": 101,
+                "name": "test",
+                "conclusion": "failure",
+            }
+        ]
+    }
+    mock_annotations = [
+        {
+            "annotation_level": "failure",
+            "message": "Process completed with exit code 1.",
+        }
+    ]
+
+    def mock_api_get(url):
+        if "/actions/runs?" in url:
+            return mock_runs
+        if "/actions/runs/789/jobs" in url:
+            return mock_jobs
+        if "/check-runs/101/annotations" in url:
+            return mock_annotations
+        return {}
+
+    with patch("collect.api_get", side_effect=mock_api_get):
+        failures, contention = collect.collect_failures_and_contention("RogoLabs", ["my-repo"])
+
+    assert len(failures) == 1
+    assert failures[0]["error"] == "Process completed with exit code 1."
+    assert len(contention) == 0

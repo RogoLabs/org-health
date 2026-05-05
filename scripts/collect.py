@@ -146,6 +146,62 @@ def collect_durations(org, repos):
     return durations
 
 
+CONTENTION_PATTERN = "not acquired by Runner"
+
+
+def collect_failures_and_contention(org, repos, max_failures=20):
+    since = (datetime.now(timezone.utc) - timedelta(days=30)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    failures = []
+    contention = []
+
+    for repo in repos:
+        url = f"{BASE_URL}/repos/{org}/{repo}/actions/runs?created=%3E{since}&status=failure&per_page=10"
+        try:
+            data = api_get(url)
+        except urllib.error.HTTPError:
+            continue
+
+        for run in data.get("workflow_runs", []):
+            error_msg = ""
+            is_contention = False
+
+            try:
+                jobs_data = api_get(f"{BASE_URL}/repos/{org}/{repo}/actions/runs/{run['id']}/jobs")
+                for job in jobs_data.get("jobs", []):
+                    annotations = api_get(f"{BASE_URL}/repos/{org}/{repo}/check-runs/{job['id']}/annotations")
+                    for ann in annotations:
+                        if ann.get("annotation_level") == "failure":
+                            error_msg = ann.get("message", "")
+                            if CONTENTION_PATTERN in error_msg:
+                                is_contention = True
+                            break
+                    if error_msg:
+                        break
+            except urllib.error.HTTPError:
+                error_msg = "Unable to fetch error details"
+
+            entry = {
+                "repo": repo,
+                "workflow": run["name"],
+                "run_id": run["id"],
+                "created_at": run["created_at"],
+                "html_url": run["html_url"],
+                "error": error_msg or "Unknown error",
+            }
+
+            failures.append(entry)
+            if is_contention:
+                contention.append(entry)
+
+        if len(failures) >= max_failures:
+            failures = failures[:max_failures]
+            break
+
+    failures.sort(key=lambda x: x["created_at"], reverse=True)
+    contention.sort(key=lambda x: x["created_at"], reverse=True)
+    return failures, contention
+
+
 def main():
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     repos = fetch_repos(ORG)
@@ -163,6 +219,11 @@ def main():
     durations = collect_durations(ORG, repos)
     write_json(OUTPUT_DIR, "durations.json", durations)
     print(f"Durations: {len(durations)} repos with timing data")
+
+    failures, contention = collect_failures_and_contention(ORG, repos)
+    write_json(OUTPUT_DIR, "failures.json", failures)
+    write_json(OUTPUT_DIR, "contention.json", contention)
+    print(f"Failures: {len(failures)} recent, {len(contention)} contention events")
 
 
 if __name__ == "__main__":
