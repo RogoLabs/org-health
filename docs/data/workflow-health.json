@@ -72,7 +72,7 @@
   "VulnRadar-Demo": {
     "total": 100,
     "success": 94,
-    "failure": 3,
+    "failure": 4,
     "cancelled": 0,
     "success_rate": 94.0
   },
@@ -85,10 +85,17 @@
   },
   "cve.icu": {
     "total": 100,
-    "success": 99,
+    "success": 98,
     "failure": 1,
     "cancelled": 0,
-    "success_rate": 99.0
+    "success_rate": 98.0
+  },
+  "org-health": {
+    "total": 2,
+    "success": 1,
+    "failure": 0,
+    "cancelled": 0,
+    "success_rate": 50.0
   },
   "patchthisapp": {
     "total": 100,

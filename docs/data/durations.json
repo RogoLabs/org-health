@@ -254,17 +254,17 @@
     }
   },
   "VulnRadar-Demo": {
+    "VulnRadar Notifications": {
+      "avg_seconds": 54.2,
+      "max_seconds": 903.0,
+      "min_seconds": 19.0,
+      "run_count": 65
+    },
     "Update Vulnerability Radar Data": {
       "avg_seconds": 409.5,
       "max_seconds": 1875.0,
       "min_seconds": 126.0,
       "run_count": 33
-    },
-    "VulnRadar Notifications": {
-      "avg_seconds": 40.5,
-      "max_seconds": 903.0,
-      "min_seconds": 19.0,
-      "run_count": 66
     }
   },
   "consensus-engine": {
@@ -298,6 +298,14 @@
       "avg_seconds": 72.0,
       "max_seconds": 72.0,
       "min_seconds": 72.0,
+      "run_count": 1
+    }
+  },
+  "org-health": {
+    "pages build and deployment": {
+      "avg_seconds": 44.0,
+      "max_seconds": 44.0,
+      "min_seconds": 44.0,
       "run_count": 1
     }
   },
