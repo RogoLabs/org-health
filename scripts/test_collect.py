@@ -30,3 +30,42 @@ def test_write_meta_creates_valid_json(tmp_path):
     assert "updated_at" in meta
     assert meta["repos"] == ["repo-a", "repo-b"]
     assert meta["org"] == "RogoLabs"
+
+
+def test_collect_billing_parses_usage_items():
+    raw_response = {
+        "usageItems": [
+            {
+                "date": "2026-04-01T00:00:00Z",
+                "product": "actions",
+                "sku": "Actions Linux",
+                "quantity": 36952.0,
+                "unitType": "Minutes",
+                "pricePerUnit": 0.006,
+                "grossAmount": 221.712,
+                "discountAmount": 221.712,
+                "netAmount": 0.0,
+                "organizationName": "RogoLabs",
+                "repositoryName": "CVE-Updates",
+            },
+            {
+                "date": "2026-04-01T00:00:00Z",
+                "product": "actions",
+                "sku": "Actions storage",
+                "quantity": 1511.614,
+                "unitType": "GigabyteHours",
+                "pricePerUnit": 0.00033602,
+                "grossAmount": 0.507,
+                "discountAmount": 0.507,
+                "netAmount": 0.0,
+                "organizationName": "RogoLabs",
+                "repositoryName": "GhostCVEs",
+            },
+        ]
+    }
+
+    with patch("collect.api_get", return_value=raw_response):
+        billing = collect.collect_billing("RogoLabs")
+
+    assert billing["minutes"]["CVE-Updates"]["2026-04"] == 36952.0
+    assert billing["storage"]["GhostCVEs"]["2026-04"] == 1511.614

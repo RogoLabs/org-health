@@ -62,11 +62,36 @@ def write_json(output_dir, filename, data):
     Path(output_dir / filename).write_text(json.dumps(data, indent=2))
 
 
+def collect_billing(org):
+    url = f"{BASE_URL}/organizations/{org}/settings/billing/usage"
+    data = api_get(url)
+
+    minutes = {}
+    storage = {}
+
+    for item in data.get("usageItems", []):
+        if item["product"] != "actions":
+            continue
+        repo = item["repositoryName"]
+        month = item["date"][:7]
+
+        if item["unitType"] == "Minutes":
+            minutes.setdefault(repo, {})[month] = item["quantity"]
+        elif item["unitType"] == "GigabyteHours":
+            storage.setdefault(repo, {})[month] = item["quantity"]
+
+    return {"minutes": minutes, "storage": storage}
+
+
 def main():
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     repos = fetch_repos(ORG)
     write_meta(OUTPUT_DIR, repos)
     print(f"Found {len(repos)} repos: {', '.join(repos)}")
+
+    billing = collect_billing(ORG)
+    write_json(OUTPUT_DIR, "billing.json", billing)
+    print(f"Billing: {len(billing['minutes'])} repos with minutes, {len(billing['storage'])} with storage")
 
 
 if __name__ == "__main__":
