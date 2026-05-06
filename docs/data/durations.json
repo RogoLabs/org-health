@@ -1,7 +1,7 @@
 {
   "CNAPulse": {
     "CNA Anomaly Monitor - Every 3 Hours": {
-      "avg_seconds": 126.8,
+      "avg_seconds": 127.2,
       "max_seconds": 451.0,
       "min_seconds": 108.0,
       "run_count": 100
@@ -9,7 +9,7 @@
   },
   "CNAScoreCard": {
     "Scheduled Data Pipeline": {
-      "avg_seconds": 138.7,
+      "avg_seconds": 139.5,
       "max_seconds": 284.0,
       "min_seconds": 107.0,
       "run_count": 86
@@ -107,7 +107,7 @@
   },
   "CVEForecast": {
     "CVE Forecast Daily Update": {
-      "avg_seconds": 548.4,
+      "avg_seconds": 548.2,
       "max_seconds": 915.0,
       "min_seconds": 481.0,
       "run_count": 22
@@ -227,7 +227,7 @@
       "run_count": 50
     },
     "Ghost Hunter - Automated CVE Hunt": {
-      "avg_seconds": 11069.3,
+      "avg_seconds": 11110.4,
       "max_seconds": 13308.0,
       "min_seconds": 9362.0,
       "run_count": 48
@@ -255,43 +255,43 @@
   },
   "VulnRadar-Demo": {
     "VulnRadar Notifications": {
-      "avg_seconds": 54.2,
+      "avg_seconds": 53.6,
       "max_seconds": 903.0,
       "min_seconds": 19.0,
       "run_count": 65
     },
     "Update Vulnerability Radar Data": {
-      "avg_seconds": 409.5,
-      "max_seconds": 1875.0,
-      "min_seconds": 126.0,
+      "avg_seconds": 304.8,
+      "max_seconds": 1079.0,
+      "min_seconds": 163.0,
       "run_count": 33
     }
   },
   "consensus-engine": {
     "Ingest & Compute Drift": {
-      "avg_seconds": 684.5,
+      "avg_seconds": 681.2,
       "max_seconds": 5354.0,
       "min_seconds": 429.0,
-      "run_count": 81
+      "run_count": 84
     }
   },
   "cve.icu": {
     "Push on main": {
-      "avg_seconds": 68.2,
-      "max_seconds": 80.0,
-      "min_seconds": 59.0,
+      "avg_seconds": 69.4,
+      "max_seconds": 86.0,
+      "min_seconds": 61.0,
       "run_count": 33
     },
     "pages build and deployment": {
-      "avg_seconds": 27.8,
+      "avg_seconds": 29.1,
       "max_seconds": 46.0,
       "min_seconds": 20.0,
       "run_count": 33
     },
     "Build and Deploy CVE.ICU": {
-      "avg_seconds": 602.8,
-      "max_seconds": 667.0,
-      "min_seconds": 547.0,
+      "avg_seconds": 609.2,
+      "max_seconds": 790.0,
+      "min_seconds": 529.0,
       "run_count": 33
     },
     "Scheduled": {
@@ -303,15 +303,21 @@
   },
   "org-health": {
     "pages build and deployment": {
-      "avg_seconds": 44.0,
-      "max_seconds": 44.0,
+      "avg_seconds": 52.0,
+      "max_seconds": 60.0,
       "min_seconds": 44.0,
+      "run_count": 2
+    },
+    "Update Org Health Data": {
+      "avg_seconds": 125.0,
+      "max_seconds": 125.0,
+      "min_seconds": 125.0,
       "run_count": 1
     }
   },
   "patchthisapp": {
     "Update List": {
-      "avg_seconds": 139.7,
+      "avg_seconds": 140.4,
       "max_seconds": 486.0,
       "min_seconds": 98.0,
       "run_count": 92
@@ -367,15 +373,9 @@
       "run_count": 5
     },
     "Deploy to GitHub Pages": {
-      "avg_seconds": 27.0,
+      "avg_seconds": 38.5,
       "max_seconds": 43.0,
-      "min_seconds": 12.0,
-      "run_count": 5
-    },
-    "Lighthouse Audit": {
-      "avg_seconds": 71.5,
-      "max_seconds": 72.0,
-      "min_seconds": 71.0,
+      "min_seconds": 34.0,
       "run_count": 2
     }
   },
