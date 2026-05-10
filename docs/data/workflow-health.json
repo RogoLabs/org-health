@@ -57,10 +57,10 @@
   },
   "GhostCVEs": {
     "total": 100,
-    "success": 97,
+    "success": 98,
     "failure": 0,
     "cancelled": 2,
-    "success_rate": 97.0
+    "success_rate": 98.0
   },
   "VulnRadar": {
     "total": 100,
@@ -71,14 +71,14 @@
   },
   "VulnRadar-Demo": {
     "total": 100,
-    "success": 100,
+    "success": 99,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 100.0
+    "success_rate": 99.0
   },
   "consensus-engine": {
-    "total": 96,
-    "success": 95,
+    "total": 100,
+    "success": 99,
     "failure": 1,
     "cancelled": 0,
     "success_rate": 99.0
@@ -91,11 +91,11 @@
     "success_rate": 100.0
   },
   "org-health": {
-    "total": 10,
-    "success": 9,
+    "total": 12,
+    "success": 11,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 90.0
+    "success_rate": 91.7
   },
   "patchthisapp": {
     "total": 100,
@@ -105,8 +105,8 @@
     "success_rate": 99.0
   },
   "rogolabs.net": {
-    "total": 6,
-    "success": 6,
+    "total": 5,
+    "success": 5,
     "failure": 0,
     "cancelled": 0,
     "success_rate": 100.0
