@@ -1,6 +1,6 @@
 {
   "org": "RogoLabs",
-  "updated_at": "2026-05-10T07:07:08.595972+00:00",
+  "updated_at": "2026-05-11T07:30:05.047802+00:00",
   "repos": [
     ".github",
     "CNAPulse",
@@ -14,6 +14,7 @@
     "EPSS-Splunk-TA",
     "EUVD",
     "GhostCVEs",
+    "SADP-Tracker",
     "VulnRadar",
     "VulnRadar-Demo",
     "consensus-engine",
