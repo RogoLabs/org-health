@@ -22,10 +22,10 @@
   },
   "CVE-Updates": {
     "total": 100,
-    "success": 100,
+    "success": 99,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 100.0
+    "success_rate": 99.0
   },
   "CVE.icu-Splunk": {
     "total": 45,
@@ -57,24 +57,24 @@
   },
   "GhostCVEs": {
     "total": 100,
-    "success": 97,
+    "success": 98,
     "failure": 0,
     "cancelled": 2,
-    "success_rate": 97.0
+    "success_rate": 98.0
   },
   "SADP-Tracker": {
-    "total": 12,
-    "success": 12,
+    "total": 18,
+    "success": 18,
     "failure": 0,
     "cancelled": 0,
     "success_rate": 100.0
   },
   "VulnRadar": {
     "total": 100,
-    "success": 0,
+    "success": 7,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 0.0
+    "success_rate": 7.0
   },
   "VulnRadar-Demo": {
     "total": 100,
@@ -98,11 +98,11 @@
     "success_rate": 100.0
   },
   "org-health": {
-    "total": 14,
-    "success": 13,
+    "total": 16,
+    "success": 15,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 92.9
+    "success_rate": 93.8
   },
   "patchthisapp": {
     "total": 100,
@@ -112,8 +112,8 @@
     "success_rate": 99.0
   },
   "rogolabs.net": {
-    "total": 5,
-    "success": 5,
+    "total": 6,
+    "success": 6,
     "failure": 0,
     "cancelled": 0,
     "success_rate": 100.0
