@@ -72,6 +72,14 @@
     "error": "Process completed with exit code 1."
   },
   {
+    "repo": "CVEForecast",
+    "workflow": "CVE Forecast Daily Update",
+    "run_id": 25066969529,
+    "created_at": "2026-04-28T17:09:09Z",
+    "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/25066969529",
+    "error": "Process completed with exit code 1."
+  },
+  {
     "repo": "CVE.icu-Splunk",
     "workflow": "CI (v1.x - Splunk 9)",
     "run_id": 24640325787,
@@ -150,13 +158,5 @@
     "created_at": "2026-04-16T14:34:20Z",
     "html_url": "https://github.com/RogoLabs/CVE.icu-Splunk/actions/runs/24516228927",
     "error": "The strategy configuration was canceled because \"unit-tests._3_11\" failed"
-  },
-  {
-    "repo": "CVE-Updates",
-    "workflow": "CVE Update Report",
-    "run_id": 24381615449,
-    "created_at": "2026-04-14T04:53:28Z",
-    "html_url": "https://github.com/RogoLabs/CVE-Updates/actions/runs/24381615449",
-    "error": "Action failed with \"The process '/usr/bin/git' failed with exit code 1\""
   }
 ]
