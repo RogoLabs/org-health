@@ -8,14 +8,14 @@
   },
   "CNAScoreCard": {
     "total": 100,
-    "success": 95,
+    "success": 98,
     "failure": 0,
-    "cancelled": 5,
-    "success_rate": 95.0
+    "cancelled": 2,
+    "success_rate": 98.0
   },
   "CVE-Splunk-TA": {
-    "total": 2,
-    "success": 2,
+    "total": 3,
+    "success": 3,
     "failure": 0,
     "cancelled": 0,
     "success_rate": 100.0
@@ -28,18 +28,18 @@
     "success_rate": 99.0
   },
   "CVE.icu-Splunk": {
-    "total": 45,
-    "success": 32,
+    "total": 46,
+    "success": 33,
     "failure": 13,
     "cancelled": 0,
-    "success_rate": 71.1
+    "success_rate": 71.7
   },
   "CVEForecast": {
     "total": 100,
-    "success": 89,
-    "failure": 10,
+    "success": 86,
+    "failure": 13,
     "cancelled": 1,
-    "success_rate": 89.0
+    "success_rate": 86.0
   },
   "EPSS-History": {
     "total": 30,
@@ -49,22 +49,22 @@
     "success_rate": 96.7
   },
   "EPSS-Splunk-TA": {
-    "total": 4,
-    "success": 4,
+    "total": 6,
+    "success": 6,
     "failure": 0,
     "cancelled": 0,
     "success_rate": 100.0
   },
   "GhostCVEs": {
     "total": 100,
-    "success": 98,
+    "success": 97,
     "failure": 0,
     "cancelled": 2,
-    "success_rate": 98.0
+    "success_rate": 97.0
   },
   "SADP-Tracker": {
-    "total": 29,
-    "success": 29,
+    "total": 33,
+    "success": 33,
     "failure": 0,
     "cancelled": 0,
     "success_rate": 100.0
@@ -98,11 +98,11 @@
     "success_rate": 100.0
   },
   "org-health": {
-    "total": 20,
-    "success": 19,
+    "total": 22,
+    "success": 21,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 95.0
+    "success_rate": 95.5
   },
   "patchthisapp": {
     "total": 100,
@@ -112,17 +112,17 @@
     "success_rate": 99.0
   },
   "rogolabs.net": {
-    "total": 5,
-    "success": 5,
+    "total": 6,
+    "success": 6,
     "failure": 0,
     "cancelled": 0,
     "success_rate": 100.0
   },
   "vuln-anarchy": {
-    "total": 30,
-    "success": 21,
-    "failure": 8,
-    "cancelled": 1,
-    "success_rate": 70.0
+    "total": 21,
+    "success": 14,
+    "failure": 7,
+    "cancelled": 0,
+    "success_rate": 66.7
   }
 }
