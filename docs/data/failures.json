@@ -2,6 +2,14 @@
   {
     "repo": "CVEForecast",
     "workflow": "CVE Forecast Daily Update",
+    "run_id": 25947848727,
+    "created_at": "2026-05-16T00:28:42Z",
+    "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/25947848727",
+    "error": "Process completed with exit code 128."
+  },
+  {
+    "repo": "CVEForecast",
+    "workflow": "CVE Forecast Daily Update",
     "run_id": 25893516692,
     "created_at": "2026-05-15T00:30:45Z",
     "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/25893516692",
@@ -70,14 +78,6 @@
     "created_at": "2026-04-28T19:38:48Z",
     "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/25073725056",
     "error": "Process completed with exit code 128."
-  },
-  {
-    "repo": "CVEForecast",
-    "workflow": "Monthly Hyperparameter Tuning",
-    "run_id": 25067167016,
-    "created_at": "2026-04-28T17:13:20Z",
-    "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/25067167016",
-    "error": "Process completed with exit code 1."
   },
   {
     "repo": "CVE.icu-Splunk",
