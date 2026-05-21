@@ -152,11 +152,11 @@
     "error": "The job was not acquired by Runner of type hosted even after multiple attempts"
   },
   {
-    "repo": "GhostCVEs",
-    "workflow": "Ghost Hunter - Automated CVE Hunt",
-    "run_id": 24666540563,
-    "created_at": "2026-04-20T12:30:02Z",
-    "html_url": "https://github.com/RogoLabs/GhostCVEs/actions/runs/24666540563",
-    "error": "Failed to download archive 'https://api.github.com/repos/actions/download-artifact/tarball/d3f86a106a0bac45b974a628896c90dbdf5c8093' after 1 attempts."
+    "repo": "VulnRadar-Demo",
+    "workflow": "VulnRadar Notifications",
+    "run_id": 25057516572,
+    "created_at": "2026-04-28T14:03:28Z",
+    "html_url": "https://github.com/RogoLabs/VulnRadar-Demo/actions/runs/25057516572",
+    "error": "The job was not acquired by Runner of type hosted even after multiple attempts"
   }
 ]
