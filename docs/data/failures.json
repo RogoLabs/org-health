@@ -1,6 +1,22 @@
 [
   {
     "repo": "VulnRadar-Demo",
+    "workflow": "Update Vulnerability Radar Data",
+    "run_id": 26335478662,
+    "created_at": "2026-05-23T14:38:54Z",
+    "html_url": "https://github.com/RogoLabs/VulnRadar-Demo/actions/runs/26335478662",
+    "error": "Process completed with exit code 1."
+  },
+  {
+    "repo": "CVE-Updates",
+    "workflow": "pages build and deployment",
+    "run_id": 26326641648,
+    "created_at": "2026-05-23T07:13:03Z",
+    "html_url": "https://github.com/RogoLabs/CVE-Updates/actions/runs/26326641648",
+    "error": "The process '/usr/bin/git' failed with exit code 128"
+  },
+  {
+    "repo": "VulnRadar-Demo",
     "workflow": "VulnRadar Notifications",
     "run_id": 26212372641,
     "created_at": "2026-05-21T07:37:35Z",
@@ -141,22 +157,6 @@
     "run_id": 25381813472,
     "created_at": "2026-05-05T14:15:41Z",
     "html_url": "https://github.com/RogoLabs/EPSS-History/actions/runs/25381813472",
-    "error": "The job was not acquired by Runner of type hosted even after multiple attempts"
-  },
-  {
-    "repo": "VulnRadar-Demo",
-    "workflow": "VulnRadar Notifications",
-    "run_id": 25381102158,
-    "created_at": "2026-05-05T14:02:27Z",
-    "html_url": "https://github.com/RogoLabs/VulnRadar-Demo/actions/runs/25381102158",
-    "error": "The job was not acquired by Runner of type hosted even after multiple attempts"
-  },
-  {
-    "repo": "VulnRadar-Demo",
-    "workflow": "Update Vulnerability Radar Data",
-    "run_id": 25380124838,
-    "created_at": "2026-05-05T13:44:20Z",
-    "html_url": "https://github.com/RogoLabs/VulnRadar-Demo/actions/runs/25380124838",
     "error": "The job was not acquired by Runner of type hosted even after multiple attempts"
   }
 ]
