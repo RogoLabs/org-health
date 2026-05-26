@@ -2,6 +2,14 @@
   {
     "repo": "VulnRadar-Demo",
     "workflow": "Update Vulnerability Radar Data",
+    "run_id": 26389815943,
+    "created_at": "2026-05-25T07:52:42Z",
+    "html_url": "https://github.com/RogoLabs/VulnRadar-Demo/actions/runs/26389815943",
+    "error": "Process completed with exit code 1."
+  },
+  {
+    "repo": "VulnRadar-Demo",
+    "workflow": "Update Vulnerability Radar Data",
     "run_id": 26335478662,
     "created_at": "2026-05-23T14:38:54Z",
     "html_url": "https://github.com/RogoLabs/VulnRadar-Demo/actions/runs/26335478662",
@@ -141,14 +149,6 @@
     "run_id": 25384422090,
     "created_at": "2026-05-05T15:03:53Z",
     "html_url": "https://github.com/RogoLabs/VulnRadar-Demo/actions/runs/25384422090",
-    "error": "The job was not acquired by Runner of type hosted even after multiple attempts"
-  },
-  {
-    "repo": "VulnRadar-Demo",
-    "workflow": "Update Vulnerability Radar Data",
-    "run_id": 25383747677,
-    "created_at": "2026-05-05T14:51:19Z",
-    "html_url": "https://github.com/RogoLabs/VulnRadar-Demo/actions/runs/25383747677",
     "error": "The job was not acquired by Runner of type hosted even after multiple attempts"
   },
   {
