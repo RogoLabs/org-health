@@ -36,17 +36,17 @@
   },
   "CVEForecast": {
     "total": 100,
-    "success": 81,
-    "failure": 15,
+    "success": 82,
+    "failure": 14,
     "cancelled": 4,
-    "success_rate": 81.0
+    "success_rate": 82.0
   },
   "CVETime": {
-    "total": 20,
-    "success": 16,
+    "total": 21,
+    "success": 17,
     "failure": 4,
     "cancelled": 0,
-    "success_rate": 80.0
+    "success_rate": 81.0
   },
   "EPSS-History": {
     "total": 30,
@@ -63,15 +63,15 @@
     "success_rate": 100.0
   },
   "GhostCVEs": {
-    "total": 99,
-    "success": 97,
+    "total": 92,
+    "success": 89,
     "failure": 0,
     "cancelled": 2,
-    "success_rate": 98.0
+    "success_rate": 96.7
   },
   "SADP-Tracker": {
-    "total": 77,
-    "success": 77,
+    "total": 81,
+    "success": 81,
     "failure": 0,
     "cancelled": 0,
     "success_rate": 100.0
@@ -94,7 +94,7 @@
     "total": 100,
     "success": 85,
     "failure": 1,
-    "cancelled": 12,
+    "cancelled": 14,
     "success_rate": 85.0
   },
   "cve.icu": {
@@ -105,11 +105,11 @@
     "success_rate": 100.0
   },
   "org-health": {
-    "total": 44,
-    "success": 42,
+    "total": 46,
+    "success": 44,
     "failure": 1,
     "cancelled": 0,
-    "success_rate": 95.5
+    "success_rate": 95.7
   },
   "patchthisapp": {
     "total": 100,
