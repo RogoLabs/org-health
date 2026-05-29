@@ -38,21 +38,5 @@
     "created_at": "2026-05-05T13:44:20Z",
     "html_url": "https://github.com/RogoLabs/VulnRadar-Demo/actions/runs/25380124838",
     "error": "The job was not acquired by Runner of type hosted even after multiple attempts"
-  },
-  {
-    "repo": "VulnRadar-Demo",
-    "workflow": "VulnRadar Notifications",
-    "run_id": 25057516572,
-    "created_at": "2026-04-28T14:03:28Z",
-    "html_url": "https://github.com/RogoLabs/VulnRadar-Demo/actions/runs/25057516572",
-    "error": "The job was not acquired by Runner of type hosted even after multiple attempts"
-  },
-  {
-    "repo": "VulnRadar-Demo",
-    "workflow": "Update Vulnerability Radar Data",
-    "run_id": 25056480158,
-    "created_at": "2026-04-28T13:43:53Z",
-    "html_url": "https://github.com/RogoLabs/VulnRadar-Demo/actions/runs/25056480158",
-    "error": "The job was not acquired by Runner of type hosted even after multiple attempts"
   }
 ]
