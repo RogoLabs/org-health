@@ -22,10 +22,10 @@
   },
   "CVE-Updates": {
     "total": 100,
-    "success": 97,
+    "success": 96,
     "failure": 1,
-    "cancelled": 1,
-    "success_rate": 97.0
+    "cancelled": 2,
+    "success_rate": 96.0
   },
   "CVE.icu-Splunk": {
     "total": 1,
@@ -42,11 +42,11 @@
     "success_rate": 81.6
   },
   "CVETime": {
-    "total": 23,
-    "success": 19,
+    "total": 24,
+    "success": 20,
     "failure": 4,
     "cancelled": 0,
-    "success_rate": 82.6
+    "success_rate": 83.3
   },
   "EPSS-History": {
     "total": 30,
@@ -63,15 +63,15 @@
     "success_rate": 100.0
   },
   "GhostCVEs": {
-    "total": 78,
-    "success": 75,
+    "total": 71,
+    "success": 69,
     "failure": 0,
     "cancelled": 2,
-    "success_rate": 96.2
+    "success_rate": 97.2
   },
   "SADP-Tracker": {
-    "total": 89,
-    "success": 89,
+    "total": 93,
+    "success": 93,
     "failure": 0,
     "cancelled": 0,
     "success_rate": 100.0
@@ -85,10 +85,10 @@
   },
   "VulnRadar-Demo": {
     "total": 100,
-    "success": 99,
+    "success": 100,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 99.0
+    "success_rate": 100.0
   },
   "consensus-engine": {
     "total": 100,
@@ -105,11 +105,11 @@
     "success_rate": 100.0
   },
   "org-health": {
-    "total": 50,
-    "success": 48,
+    "total": 52,
+    "success": 50,
     "failure": 1,
     "cancelled": 0,
-    "success_rate": 96.0
+    "success_rate": 96.2
   },
   "patchthisapp": {
     "total": 100,
