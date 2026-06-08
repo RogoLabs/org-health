@@ -1,5 +1,13 @@
 [
   {
+    "repo": "GhostCVEs",
+    "workflow": "Ghost Hunter - Automated CVE Hunt",
+    "run_id": 27085921677,
+    "created_at": "2026-06-07T07:18:11Z",
+    "html_url": "https://github.com/RogoLabs/GhostCVEs/actions/runs/27085921677",
+    "error": "The hosted runner lost communication with the server. Anything in your workflow that terminates the runner process, starves it for CPU/Memory, or blocks its network access can cause this error."
+  },
+  {
     "repo": "EPSS-History",
     "workflow": "Daily EPSS Download",
     "run_id": 26957810732,
@@ -29,14 +37,6 @@
     "run_id": 26326641648,
     "created_at": "2026-05-23T07:13:03Z",
     "html_url": "https://github.com/RogoLabs/CVE-Updates/actions/runs/26326641648",
-    "error": "The process '/usr/bin/git' failed with exit code 128"
-  },
-  {
-    "repo": "consensus-engine",
-    "workflow": "Ingest & Compute Drift",
-    "run_id": 26326253069,
-    "created_at": "2026-05-23T06:53:26Z",
-    "html_url": "https://github.com/RogoLabs/consensus-engine/actions/runs/26326253069",
     "error": "The process '/usr/bin/git' failed with exit code 128"
   },
   {
