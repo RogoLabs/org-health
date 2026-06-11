@@ -1,10 +1,10 @@
 {
   "CNAPulse": {
     "total": 100,
-    "success": 100,
-    "failure": 0,
+    "success": 99,
+    "failure": 1,
     "cancelled": 0,
-    "success_rate": 100.0
+    "success_rate": 99.0
   },
   "CNAScoreCard": {
     "total": 100,
@@ -42,11 +42,11 @@
     "success_rate": 81.4
   },
   "CVETime": {
-    "total": 35,
-    "success": 31,
+    "total": 36,
+    "success": 32,
     "failure": 4,
     "cancelled": 0,
-    "success_rate": 88.6
+    "success_rate": 88.9
   },
   "EPSS-History": {
     "total": 30,
@@ -64,10 +64,10 @@
   },
   "GhostCVEs": {
     "total": 31,
-    "success": 30,
+    "success": 29,
     "failure": 1,
     "cancelled": 0,
-    "success_rate": 96.8
+    "success_rate": 93.5
   },
   "SADP-Tracker": {
     "total": 100,
@@ -78,10 +78,10 @@
   },
   "VulnRadar": {
     "total": 100,
-    "success": 4,
+    "success": 0,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 4.0
+    "success_rate": 0.0
   },
   "VulnRadar-Demo": {
     "total": 100,
@@ -105,11 +105,11 @@
     "success_rate": 100.0
   },
   "org-health": {
-    "total": 59,
-    "success": 57,
+    "total": 57,
+    "success": 55,
     "failure": 1,
     "cancelled": 0,
-    "success_rate": 96.6
+    "success_rate": 96.5
   },
   "patchthisapp": {
     "total": 100,
@@ -119,8 +119,8 @@
     "success_rate": 100.0
   },
   "rogolabs.net": {
-    "total": 6,
-    "success": 6,
+    "total": 5,
+    "success": 5,
     "failure": 0,
     "cancelled": 0,
     "success_rate": 100.0
