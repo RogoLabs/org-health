@@ -48,6 +48,14 @@
     "error": "The process '/usr/bin/git' failed with exit code 128"
   },
   {
+    "repo": "VulnRadar-Demo",
+    "workflow": "VulnRadar Notifications",
+    "run_id": 26212372641,
+    "created_at": "2026-05-21T07:37:35Z",
+    "html_url": "https://github.com/RogoLabs/VulnRadar-Demo/actions/runs/26212372641",
+    "error": "Process completed with exit code 1."
+  },
+  {
     "repo": "CVETime",
     "workflow": "Update CVE Summary and Deploy",
     "run_id": 26103104832,
@@ -150,13 +158,5 @@
     "created_at": "2026-05-14T14:18:35Z",
     "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/25865236987",
     "error": "Process completed with exit code 128."
-  },
-  {
-    "repo": "CVEForecast",
-    "workflow": "Tests",
-    "run_id": 25755116105,
-    "created_at": "2026-05-12T18:46:31Z",
-    "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/25755116105",
-    "error": "Process completed with exit code 1."
   }
 ]
