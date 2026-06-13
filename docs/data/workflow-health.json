@@ -42,18 +42,18 @@
     "success_rate": 80.6
   },
   "CVETime": {
-    "total": 37,
-    "success": 33,
+    "total": 38,
+    "success": 34,
     "failure": 4,
     "cancelled": 0,
-    "success_rate": 89.2
+    "success_rate": 89.5
   },
   "EPSS-History": {
-    "total": 30,
-    "success": 29,
-    "failure": 1,
+    "total": 33,
+    "success": 31,
+    "failure": 2,
     "cancelled": 0,
-    "success_rate": 96.7
+    "success_rate": 93.9
   },
   "EPSS-Splunk-TA": {
     "total": 2,
@@ -64,10 +64,10 @@
   },
   "GhostCVEs": {
     "total": 31,
-    "success": 30,
+    "success": 29,
     "failure": 1,
     "cancelled": 0,
-    "success_rate": 96.8
+    "success_rate": 93.5
   },
   "SADP-Tracker": {
     "total": 100,
@@ -85,10 +85,10 @@
   },
   "VulnRadar-Demo": {
     "total": 100,
-    "success": 99,
+    "success": 100,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 99.0
+    "success_rate": 100.0
   },
   "consensus-engine": {
     "total": 100,
