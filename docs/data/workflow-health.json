@@ -1,21 +1,14 @@
 {
   "CNAPulse": {
     "total": 100,
-    "success": 99,
-    "failure": 1,
+    "success": 98,
+    "failure": 2,
     "cancelled": 0,
-    "success_rate": 99.0
+    "success_rate": 98.0
   },
   "CNAScoreCard": {
     "total": 100,
     "success": 100,
-    "failure": 0,
-    "cancelled": 0,
-    "success_rate": 100.0
-  },
-  "CVE-Splunk-TA": {
-    "total": 1,
-    "success": 1,
     "failure": 0,
     "cancelled": 0,
     "success_rate": 100.0
@@ -27,26 +20,19 @@
     "cancelled": 2,
     "success_rate": 92.9
   },
-  "CVE.icu-Splunk": {
-    "total": 1,
-    "success": 1,
-    "failure": 0,
-    "cancelled": 0,
-    "success_rate": 100.0
-  },
   "CVEForecast": {
-    "total": 62,
+    "total": 59,
     "success": 50,
-    "failure": 9,
+    "failure": 6,
     "cancelled": 3,
-    "success_rate": 80.6
+    "success_rate": 84.7
   },
   "CVETime": {
-    "total": 38,
-    "success": 34,
+    "total": 39,
+    "success": 35,
     "failure": 4,
     "cancelled": 0,
-    "success_rate": 89.5
+    "success_rate": 89.7
   },
   "EPSS-History": {
     "total": 33,
@@ -55,19 +41,12 @@
     "cancelled": 0,
     "success_rate": 93.9
   },
-  "EPSS-Splunk-TA": {
-    "total": 2,
-    "success": 2,
-    "failure": 0,
-    "cancelled": 0,
-    "success_rate": 100.0
-  },
   "GhostCVEs": {
     "total": 31,
-    "success": 29,
+    "success": 30,
     "failure": 1,
     "cancelled": 0,
-    "success_rate": 93.5
+    "success_rate": 96.8
   },
   "SADP-Tracker": {
     "total": 100,
@@ -85,10 +64,10 @@
   },
   "VulnRadar-Demo": {
     "total": 100,
-    "success": 100,
+    "success": 99,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 100.0
+    "success_rate": 99.0
   },
   "consensus-engine": {
     "total": 100,
@@ -119,8 +98,8 @@
     "success_rate": 100.0
   },
   "rogolabs.net": {
-    "total": 5,
-    "success": 5,
+    "total": 4,
+    "success": 4,
     "failure": 0,
     "cancelled": 0,
     "success_rate": 100.0
