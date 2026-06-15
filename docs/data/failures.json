@@ -64,6 +64,14 @@
     "error": "The process '/usr/bin/git' failed with exit code 128"
   },
   {
+    "repo": "org-health",
+    "workflow": "pages build and deployment",
+    "run_id": 26326567132,
+    "created_at": "2026-05-23T07:09:18Z",
+    "html_url": "https://github.com/RogoLabs/org-health/actions/runs/26326567132",
+    "error": "Error: Failed to create deployment (status: 401) with build version 87dbab9c7d17aea3ec74237397573503f1b9928a. Request ID B818:1EA913:A99076:28DE4E0:6A1152BE"
+  },
+  {
     "repo": "consensus-engine",
     "workflow": "Ingest & Compute Drift",
     "run_id": 26326253069,
@@ -149,14 +157,6 @@
     "run_id": 25976938172,
     "created_at": "2026-05-17T00:30:37Z",
     "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/25976938172",
-    "error": "Process completed with exit code 128."
-  },
-  {
-    "repo": "CVEForecast",
-    "workflow": "CVE Forecast Daily Update",
-    "run_id": 25947848727,
-    "created_at": "2026-05-16T00:28:42Z",
-    "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/25947848727",
     "error": "Process completed with exit code 128."
   }
 ]
