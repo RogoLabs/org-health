@@ -118,45 +118,5 @@
     "created_at": "2026-05-18T22:47:46Z",
     "html_url": "https://github.com/RogoLabs/CVETime/actions/runs/26064907954",
     "error": "Process completed with exit code 1."
-  },
-  {
-    "repo": "CVEForecast",
-    "workflow": "CVE Forecast Daily Update",
-    "run_id": 25979437712,
-    "created_at": "2026-05-17T02:44:32Z",
-    "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/25979437712",
-    "error": "Process completed with exit code 1."
-  },
-  {
-    "repo": "CVEForecast",
-    "workflow": "CVE Forecast Daily Update",
-    "run_id": 25979086560,
-    "created_at": "2026-05-17T02:25:35Z",
-    "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/25979086560",
-    "error": "Process completed with exit code 1."
-  },
-  {
-    "repo": "CVEForecast",
-    "workflow": "CVE Forecast Daily Update",
-    "run_id": 25978817371,
-    "created_at": "2026-05-17T02:11:52Z",
-    "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/25978817371",
-    "error": "Process completed with exit code 128."
-  },
-  {
-    "repo": "CVEForecast",
-    "workflow": "CVE Forecast Daily Update",
-    "run_id": 25978816062,
-    "created_at": "2026-05-17T02:11:48Z",
-    "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/25978816062",
-    "error": "Process completed with exit code 128."
-  },
-  {
-    "repo": "CVEForecast",
-    "workflow": "CVE Forecast Daily Update",
-    "run_id": 25976938172,
-    "created_at": "2026-05-17T00:30:37Z",
-    "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/25976938172",
-    "error": "Process completed with exit code 128."
   }
 ]
