@@ -14,11 +14,11 @@
     "success_rate": 100.0
   },
   "CVE-Updates": {
-    "total": 57,
-    "success": 54,
+    "total": 56,
+    "success": 52,
     "failure": 1,
     "cancelled": 2,
-    "success_rate": 94.7
+    "success_rate": 92.9
   },
   "CVEForecast": {
     "total": 43,
@@ -28,11 +28,11 @@
     "success_rate": 100.0
   },
   "CVETime": {
-    "total": 42,
-    "success": 38,
-    "failure": 4,
+    "total": 36,
+    "success": 34,
+    "failure": 2,
     "cancelled": 0,
-    "success_rate": 90.5
+    "success_rate": 94.4
   },
   "EPSS-History": {
     "total": 33,
@@ -43,10 +43,10 @@
   },
   "GhostCVEs": {
     "total": 31,
-    "success": 29,
+    "success": 30,
     "failure": 1,
     "cancelled": 0,
-    "success_rate": 93.5
+    "success_rate": 96.8
   },
   "SADP-Tracker": {
     "total": 100,
@@ -71,10 +71,10 @@
   },
   "consensus-engine": {
     "total": 100,
-    "success": 88,
-    "failure": 0,
-    "cancelled": 12,
-    "success_rate": 88.0
+    "success": 89,
+    "failure": 3,
+    "cancelled": 8,
+    "success_rate": 89.0
   },
   "cve.icu": {
     "total": 100,
@@ -98,8 +98,8 @@
     "success_rate": 100.0
   },
   "rogolabs.net": {
-    "total": 5,
-    "success": 5,
+    "total": 4,
+    "success": 4,
     "failure": 0,
     "cancelled": 0,
     "success_rate": 100.0
