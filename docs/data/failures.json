@@ -1,5 +1,13 @@
 [
   {
+    "repo": "cvefloodline.org",
+    "workflow": "CI",
+    "run_id": 28239343973,
+    "created_at": "2026-06-26T12:54:41Z",
+    "html_url": "https://github.com/RogoLabs/cvefloodline.org/actions/runs/28239343973",
+    "error": "Process completed with exit code 1."
+  },
+  {
     "repo": "CVEForecast",
     "workflow": "Tests",
     "run_id": 28099999088,
