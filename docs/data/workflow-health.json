@@ -15,17 +15,17 @@
   },
   "CVE-Updates": {
     "total": 60,
-    "success": 60,
+    "success": 59,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 100.0
+    "success_rate": 98.3
   },
   "CVEForecast": {
-    "total": 67,
-    "success": 63,
+    "total": 69,
+    "success": 65,
     "failure": 4,
     "cancelled": 0,
-    "success_rate": 94.0
+    "success_rate": 94.2
   },
   "CVETime": {
     "total": 30,
@@ -42,11 +42,11 @@
     "success_rate": 93.9
   },
   "GhostCVEs": {
-    "total": 31,
-    "success": 30,
+    "total": 30,
+    "success": 28,
     "failure": 1,
     "cancelled": 0,
-    "success_rate": 96.8
+    "success_rate": 93.3
   },
   "SADP-Tracker": {
     "total": 100,
@@ -57,10 +57,10 @@
   },
   "VulnRadar": {
     "total": 100,
-    "success": 4,
+    "success": 5,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 4.0
+    "success_rate": 5.0
   },
   "VulnRadar-Demo": {
     "total": 100,
@@ -71,10 +71,10 @@
   },
   "consensus-engine": {
     "total": 100,
-    "success": 96,
+    "success": 97,
     "failure": 3,
     "cancelled": 0,
-    "success_rate": 96.0
+    "success_rate": 97.0
   },
   "cve.icu": {
     "total": 100,
@@ -84,15 +84,15 @@
     "success_rate": 100.0
   },
   "cvefloodline.org": {
-    "total": 93,
-    "success": 84,
+    "total": 94,
+    "success": 85,
     "failure": 4,
     "cancelled": 5,
-    "success_rate": 90.3
+    "success_rate": 90.4
   },
   "org-health": {
-    "total": 58,
-    "success": 57,
+    "total": 59,
+    "success": 58,
     "failure": 0,
     "cancelled": 0,
     "success_rate": 98.3
