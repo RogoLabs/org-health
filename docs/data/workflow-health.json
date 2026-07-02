@@ -43,10 +43,10 @@
   },
   "GhostCVEs": {
     "total": 30,
-    "success": 28,
+    "success": 29,
     "failure": 1,
     "cancelled": 0,
-    "success_rate": 93.3
+    "success_rate": 96.7
   },
   "SADP-Tracker": {
     "total": 100,
@@ -57,17 +57,17 @@
   },
   "VulnRadar": {
     "total": 100,
-    "success": 5,
+    "success": 1,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 5.0
+    "success_rate": 1.0
   },
   "VulnRadar-Demo": {
     "total": 100,
-    "success": 99,
+    "success": 100,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 99.0
+    "success_rate": 100.0
   },
   "consensus-engine": {
     "total": 100,
@@ -84,11 +84,11 @@
     "success_rate": 100.0
   },
   "cvefloodline.org": {
-    "total": 94,
-    "success": 85,
-    "failure": 4,
+    "total": 100,
+    "success": 90,
+    "failure": 5,
     "cancelled": 5,
-    "success_rate": 90.4
+    "success_rate": 90.0
   },
   "org-health": {
     "total": 59,
@@ -103,12 +103,5 @@
     "failure": 4,
     "cancelled": 0,
     "success_rate": 96.0
-  },
-  "rogolabs.net": {
-    "total": 6,
-    "success": 6,
-    "failure": 0,
-    "cancelled": 0,
-    "success_rate": 100.0
   }
 }
