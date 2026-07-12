@@ -43,10 +43,10 @@
   },
   "GhostCVEs": {
     "total": 30,
-    "success": 28,
+    "success": 29,
     "failure": 1,
     "cancelled": 0,
-    "success_rate": 93.3
+    "success_rate": 96.7
   },
   "SADP-Tracker": {
     "total": 100,
