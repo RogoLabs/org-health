@@ -35,18 +35,18 @@
     "success_rate": 100.0
   },
   "EPSS-History": {
-    "total": 33,
-    "success": 32,
-    "failure": 1,
+    "total": 30,
+    "success": 30,
+    "failure": 0,
     "cancelled": 0,
-    "success_rate": 97.0
+    "success_rate": 100.0
   },
   "GhostCVEs": {
     "total": 30,
-    "success": 29,
+    "success": 28,
     "failure": 1,
     "cancelled": 0,
-    "success_rate": 96.7
+    "success_rate": 93.3
   },
   "SADP-Tracker": {
     "total": 100,
@@ -71,24 +71,24 @@
   },
   "consensus-engine": {
     "total": 100,
-    "success": 93,
-    "failure": 7,
-    "cancelled": 0,
-    "success_rate": 93.0
-  },
-  "cve.icu": {
-    "total": 100,
     "success": 96,
     "failure": 4,
     "cancelled": 0,
     "success_rate": 96.0
   },
+  "cve.icu": {
+    "total": 100,
+    "success": 100,
+    "failure": 0,
+    "cancelled": 0,
+    "success_rate": 100.0
+  },
   "cvefloodline.org": {
     "total": 100,
-    "success": 88,
-    "failure": 6,
+    "success": 89,
+    "failure": 5,
     "cancelled": 6,
-    "success_rate": 88.0
+    "success_rate": 89.0
   },
   "org-health": {
     "total": 59,
