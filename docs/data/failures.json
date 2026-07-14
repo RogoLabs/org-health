@@ -1,5 +1,13 @@
 [
   {
+    "repo": "consensus-engine",
+    "workflow": "Ingest & Compute Drift",
+    "run_id": 28783449170,
+    "created_at": "2026-07-06T10:00:04Z",
+    "html_url": "https://github.com/RogoLabs/consensus-engine/actions/runs/28783449170",
+    "error": "Deployment failed, try again later."
+  },
+  {
     "repo": "CNAScoreCard",
     "workflow": "Scheduled Data Pipeline",
     "run_id": 28782787376,
@@ -150,13 +158,5 @@
     "created_at": "2026-06-19T08:15:44Z",
     "html_url": "https://github.com/RogoLabs/VulnRadar-Demo/actions/runs/27814089616",
     "error": "Process completed with exit code 1."
-  },
-  {
-    "repo": "CNAPulse",
-    "workflow": "CNA Anomaly Monitor - Every 3 Hours",
-    "run_id": 27492189750,
-    "created_at": "2026-06-14T07:40:49Z",
-    "html_url": "https://github.com/RogoLabs/CNAPulse/actions/runs/27492189750",
-    "error": "Process completed with exit code 128."
   }
 ]

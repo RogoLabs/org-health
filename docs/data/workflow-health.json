@@ -43,10 +43,10 @@
   },
   "GhostCVEs": {
     "total": 30,
-    "success": 28,
+    "success": 29,
     "failure": 1,
     "cancelled": 0,
-    "success_rate": 93.3
+    "success_rate": 96.7
   },
   "SADP-Tracker": {
     "total": 100,
@@ -57,17 +57,17 @@
   },
   "VulnRadar": {
     "total": 100,
-    "success": 0,
+    "success": 5,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 0.0
+    "success_rate": 5.0
   },
   "VulnRadar-Demo": {
     "total": 100,
-    "success": 100,
+    "success": 99,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 100.0
+    "success_rate": 99.0
   },
   "consensus-engine": {
     "total": 100,
@@ -99,14 +99,14 @@
   },
   "patchthisapp": {
     "total": 100,
-    "success": 92,
-    "failure": 8,
+    "success": 93,
+    "failure": 7,
     "cancelled": 0,
-    "success_rate": 92.0
+    "success_rate": 93.0
   },
   "rogolabs.net": {
-    "total": 5,
-    "success": 5,
+    "total": 6,
+    "success": 6,
     "failure": 0,
     "cancelled": 0,
     "success_rate": 100.0
