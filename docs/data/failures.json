@@ -1,5 +1,13 @@
 [
   {
+    "repo": "VulnRadar-Demo",
+    "workflow": "Update Vulnerability Radar Data",
+    "run_id": 29541146155,
+    "created_at": "2026-07-16T23:01:18Z",
+    "html_url": "https://github.com/RogoLabs/VulnRadar-Demo/actions/runs/29541146155",
+    "error": "Process completed with exit code 1."
+  },
+  {
     "repo": "CVEForecast",
     "workflow": "Tests",
     "run_id": 29333600861,
@@ -149,14 +157,6 @@
     "run_id": 28027071392,
     "created_at": "2026-06-23T12:43:41Z",
     "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/28027071392",
-    "error": "Process completed with exit code 1."
-  },
-  {
-    "repo": "VulnRadar-Demo",
-    "workflow": "VulnRadar Notifications",
-    "run_id": 27814089616,
-    "created_at": "2026-06-19T08:15:44Z",
-    "html_url": "https://github.com/RogoLabs/VulnRadar-Demo/actions/runs/27814089616",
     "error": "Process completed with exit code 1."
   }
 ]
