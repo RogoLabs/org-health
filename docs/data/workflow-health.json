@@ -21,11 +21,11 @@
     "success_rate": 98.4
   },
   "CVEForecast": {
-    "total": 58,
-    "success": 53,
+    "total": 59,
+    "success": 54,
     "failure": 3,
     "cancelled": 2,
-    "success_rate": 91.4
+    "success_rate": 91.5
   },
   "CVETime": {
     "total": 30,
@@ -42,11 +42,11 @@
     "success_rate": 100.0
   },
   "GhostCVEs": {
-    "total": 30,
-    "success": 28,
+    "total": 31,
+    "success": 29,
     "failure": 1,
     "cancelled": 0,
-    "success_rate": 93.3
+    "success_rate": 93.5
   },
   "SADP-Tracker": {
     "total": 100,
@@ -57,10 +57,10 @@
   },
   "VulnRadar": {
     "total": 100,
-    "success": 6,
+    "success": 1,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 6.0
+    "success_rate": 1.0
   },
   "VulnRadar-Demo": {
     "total": 100,
