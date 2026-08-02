@@ -8,6 +8,14 @@
     "error": "Process completed with exit code 1."
   },
   {
+    "repo": "cve.icu",
+    "workflow": "pages build and deployment",
+    "run_id": 29805470348,
+    "created_at": "2026-07-21T05:56:36Z",
+    "html_url": "https://github.com/RogoLabs/cve.icu/actions/runs/29805470348",
+    "error": "Error: Failed to create deployment (status: 504) with build version e8a64915ee0d4ccb582e6383d147c1b99523c951. Server error, is githubstatus.com reporting a Pages outage? Please re-run the deployment at a later time."
+  },
+  {
     "repo": "VulnRadar-Demo",
     "workflow": "Update Vulnerability Radar Data",
     "run_id": 29541146155,
@@ -21,6 +29,22 @@
     "run_id": 29333600861,
     "created_at": "2026-07-14T12:43:40Z",
     "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/29333600861",
+    "error": "Process completed with exit code 1."
+  },
+  {
+    "repo": "cve.icu",
+    "workflow": "Build and Deploy CVE.ICU",
+    "run_id": 28978777552,
+    "created_at": "2026-07-08T22:01:08Z",
+    "html_url": "https://github.com/RogoLabs/cve.icu/actions/runs/28978777552",
+    "error": "Process completed with exit code 1."
+  },
+  {
+    "repo": "cve.icu",
+    "workflow": "Build and Deploy CVE.ICU",
+    "run_id": 28969220120,
+    "created_at": "2026-07-08T19:17:32Z",
+    "html_url": "https://github.com/RogoLabs/cve.icu/actions/runs/28969220120",
     "error": "Process completed with exit code 1."
   },
   {
@@ -134,29 +158,5 @@
     "created_at": "2026-07-03T08:42:04Z",
     "html_url": "https://github.com/RogoLabs/CNAScoreCard/actions/runs/28649117692",
     "error": "Deployment failed, try again later."
-  },
-  {
-    "repo": "CNAScoreCard",
-    "workflow": "Scheduled Data Pipeline",
-    "run_id": 28632366100,
-    "created_at": "2026-07-03T01:27:37Z",
-    "html_url": "https://github.com/RogoLabs/CNAScoreCard/actions/runs/28632366100",
-    "error": "Deployment failed, try again later."
-  },
-  {
-    "repo": "CNAPulse",
-    "workflow": "CNA Anomaly Monitor - Every 3 Hours",
-    "run_id": 28624542403,
-    "created_at": "2026-07-02T22:05:22Z",
-    "html_url": "https://github.com/RogoLabs/CNAPulse/actions/runs/28624542403",
-    "error": "Error: Multiple artifacts named \"github-pages\" were unexpectedly found for this workflow run. Artifact count is 2."
-  },
-  {
-    "repo": "CNAPulse",
-    "workflow": "CNA Anomaly Monitor - Every 3 Hours",
-    "run_id": 28606842375,
-    "created_at": "2026-07-02T16:48:31Z",
-    "html_url": "https://github.com/RogoLabs/CNAPulse/actions/runs/28606842375",
-    "error": "Timeout reached, aborting!"
   }
 ]
