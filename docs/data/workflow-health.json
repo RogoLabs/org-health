@@ -6,19 +6,12 @@
     "cancelled": 0,
     "success_rate": 100.0
   },
-  "CNAScoreCard": {
-    "total": 100,
-    "success": 100,
-    "failure": 0,
-    "cancelled": 0,
-    "success_rate": 100.0
-  },
   "CVE-Updates": {
-    "total": 64,
-    "success": 63,
-    "failure": 0,
+    "total": 61,
+    "success": 59,
+    "failure": 1,
     "cancelled": 1,
-    "success_rate": 98.4
+    "success_rate": 96.7
   },
   "CVEForecast": {
     "total": 59,
@@ -44,7 +37,7 @@
   "GhostCVEs": {
     "total": 31,
     "success": 30,
-    "failure": 1,
+    "failure": 0,
     "cancelled": 0,
     "success_rate": 96.8
   },
@@ -91,11 +84,11 @@
     "success_rate": 92.6
   },
   "org-health": {
-    "total": 60,
-    "success": 58,
-    "failure": 1,
+    "total": 58,
+    "success": 57,
+    "failure": 0,
     "cancelled": 0,
-    "success_rate": 96.7
+    "success_rate": 98.3
   },
   "patchthisapp": {
     "total": 100,
