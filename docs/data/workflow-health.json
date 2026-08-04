@@ -6,12 +6,19 @@
     "cancelled": 0,
     "success_rate": 100.0
   },
+  "CNAScoreCard": {
+    "total": 100,
+    "success": 100,
+    "failure": 0,
+    "cancelled": 0,
+    "success_rate": 100.0
+  },
   "CVE-Updates": {
-    "total": 61,
-    "success": 59,
+    "total": 62,
+    "success": 60,
     "failure": 1,
     "cancelled": 1,
-    "success_rate": 96.7
+    "success_rate": 96.8
   },
   "CVEForecast": {
     "total": 59,
@@ -36,10 +43,10 @@
   },
   "GhostCVEs": {
     "total": 31,
-    "success": 30,
+    "success": 31,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 96.8
+    "success_rate": 100.0
   },
   "SADP-Tracker": {
     "total": 100,
@@ -50,17 +57,17 @@
   },
   "VulnRadar": {
     "total": 100,
-    "success": 0,
+    "success": 3,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 0.0
+    "success_rate": 3.0
   },
   "VulnRadar-Demo": {
     "total": 100,
-    "success": 100,
+    "success": 99,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 100.0
+    "success_rate": 99.0
   },
   "consensus-engine": {
     "total": 100,
@@ -84,8 +91,8 @@
     "success_rate": 92.6
   },
   "org-health": {
-    "total": 58,
-    "success": 57,
+    "total": 60,
+    "success": 59,
     "failure": 0,
     "cancelled": 0,
     "success_rate": 98.3
@@ -98,8 +105,8 @@
     "success_rate": 95.0
   },
   "rogolabs.net": {
-    "total": 5,
-    "success": 5,
+    "total": 6,
+    "success": 6,
     "failure": 0,
     "cancelled": 0,
     "success_rate": 100.0
