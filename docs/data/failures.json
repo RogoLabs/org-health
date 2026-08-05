@@ -32,6 +32,38 @@
     "error": "Timeout reached, aborting!"
   },
   {
+    "repo": "patchthisapp",
+    "workflow": "Update List",
+    "run_id": 30119501159,
+    "created_at": "2026-07-24T19:06:03Z",
+    "html_url": "https://github.com/RogoLabs/patchthisapp/actions/runs/30119501159",
+    "error": "Process completed with exit code 1."
+  },
+  {
+    "repo": "patchthisapp",
+    "workflow": "Update List",
+    "run_id": 30095762184,
+    "created_at": "2026-07-24T13:09:14Z",
+    "html_url": "https://github.com/RogoLabs/patchthisapp/actions/runs/30095762184",
+    "error": "Process completed with exit code 1."
+  },
+  {
+    "repo": "patchthisapp",
+    "workflow": "Update List",
+    "run_id": 30077434001,
+    "created_at": "2026-07-24T08:01:09Z",
+    "html_url": "https://github.com/RogoLabs/patchthisapp/actions/runs/30077434001",
+    "error": "Process completed with exit code 1."
+  },
+  {
+    "repo": "patchthisapp",
+    "workflow": "Update List",
+    "run_id": 30058581709,
+    "created_at": "2026-07-24T01:17:41Z",
+    "html_url": "https://github.com/RogoLabs/patchthisapp/actions/runs/30058581709",
+    "error": "Process completed with exit code 1."
+  },
+  {
     "repo": "CVEForecast",
     "workflow": "Tests",
     "run_id": 29836750614,
@@ -62,6 +94,14 @@
     "created_at": "2026-07-14T12:43:40Z",
     "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/29333600861",
     "error": "Process completed with exit code 1."
+  },
+  {
+    "repo": "patchthisapp",
+    "workflow": "Update List",
+    "run_id": 29006534249,
+    "created_at": "2026-07-09T08:58:00Z",
+    "html_url": "https://github.com/RogoLabs/patchthisapp/actions/runs/29006534249",
+    "error": "The job was not acquired by Runner of type hosted even after multiple attempts"
   },
   {
     "repo": "cve.icu",
@@ -117,46 +157,6 @@
     "run_id": 28782787376,
     "created_at": "2026-07-06T09:48:03Z",
     "html_url": "https://github.com/RogoLabs/CNAScoreCard/actions/runs/28782787376",
-    "error": "Deployment failed, try again later."
-  },
-  {
-    "repo": "CNAPulse",
-    "workflow": "CNA Anomaly Monitor - Every 3 Hours",
-    "run_id": 28765969646,
-    "created_at": "2026-07-06T03:32:46Z",
-    "html_url": "https://github.com/RogoLabs/CNAPulse/actions/runs/28765969646",
-    "error": "Deployment failed, try again later."
-  },
-  {
-    "repo": "CVEForecast",
-    "workflow": "CVE Forecast Daily Update",
-    "run_id": 28763944072,
-    "created_at": "2026-07-06T02:29:13Z",
-    "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/28763944072",
-    "error": "Deployment failed, try again later."
-  },
-  {
-    "repo": "cve.icu",
-    "workflow": "pages build and deployment",
-    "run_id": 28756519434,
-    "created_at": "2026-07-05T22:08:04Z",
-    "html_url": "https://github.com/RogoLabs/cve.icu/actions/runs/28756519434",
-    "error": "Deployment failed, try again later."
-  },
-  {
-    "repo": "cve.icu",
-    "workflow": "pages build and deployment",
-    "run_id": 28746908705,
-    "created_at": "2026-07-05T16:12:11Z",
-    "html_url": "https://github.com/RogoLabs/cve.icu/actions/runs/28746908705",
-    "error": "Deployment failed, try again later."
-  },
-  {
-    "repo": "CNAScoreCard",
-    "workflow": "Scheduled Data Pipeline",
-    "run_id": 28741612316,
-    "created_at": "2026-07-05T13:00:06Z",
-    "html_url": "https://github.com/RogoLabs/CNAScoreCard/actions/runs/28741612316",
     "error": "Deployment failed, try again later."
   }
 ]
