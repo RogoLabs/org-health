@@ -1,31 +1,31 @@
 {
   "CNAPulse": {
     "total": 100,
-    "success": 100,
-    "failure": 0,
+    "success": 99,
+    "failure": 1,
     "cancelled": 0,
-    "success_rate": 100.0
+    "success_rate": 99.0
   },
   "CNAScoreCard": {
     "total": 100,
-    "success": 100,
-    "failure": 0,
+    "success": 99,
+    "failure": 1,
     "cancelled": 0,
-    "success_rate": 100.0
+    "success_rate": 99.0
   },
   "CVE-Updates": {
     "total": 63,
-    "success": 60,
+    "success": 61,
     "failure": 1,
     "cancelled": 1,
-    "success_rate": 95.2
+    "success_rate": 96.8
   },
   "CVEForecast": {
-    "total": 61,
-    "success": 57,
+    "total": 59,
+    "success": 55,
     "failure": 2,
     "cancelled": 2,
-    "success_rate": 93.4
+    "success_rate": 93.2
   },
   "CVETime": {
     "total": 30,
@@ -42,16 +42,16 @@
     "success_rate": 100.0
   },
   "GhostCVEs": {
-    "total": 32,
-    "success": 32,
+    "total": 31,
+    "success": 30,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 100.0
+    "success_rate": 96.8
   },
   "SADP-Tracker": {
     "total": 100,
     "success": 99,
-    "failure": 0,
+    "failure": 1,
     "cancelled": 0,
     "success_rate": 99.0
   },
@@ -64,24 +64,24 @@
   },
   "VulnRadar-Demo": {
     "total": 100,
-    "success": 100,
-    "failure": 0,
+    "success": 97,
+    "failure": 2,
     "cancelled": 0,
-    "success_rate": 100.0
+    "success_rate": 97.0
   },
   "consensus-engine": {
     "total": 100,
-    "success": 100,
-    "failure": 0,
+    "success": 99,
+    "failure": 1,
     "cancelled": 0,
-    "success_rate": 100.0
+    "success_rate": 99.0
   },
   "cve.icu": {
     "total": 100,
-    "success": 100,
-    "failure": 0,
+    "success": 97,
+    "failure": 3,
     "cancelled": 0,
-    "success_rate": 100.0
+    "success_rate": 97.0
   },
   "cvefloodline.org": {
     "total": 86,
@@ -99,10 +99,10 @@
   },
   "patchthisapp": {
     "total": 100,
-    "success": 95,
-    "failure": 5,
+    "success": 94,
+    "failure": 6,
     "cancelled": 0,
-    "success_rate": 95.0
+    "success_rate": 94.0
   },
   "rogolabs.net": {
     "total": 5,
