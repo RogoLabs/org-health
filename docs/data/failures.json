@@ -1,5 +1,13 @@
 [
   {
+    "repo": "CNAScoreCard",
+    "workflow": "Scheduled Data Pipeline",
+    "run_id": 31345198998,
+    "created_at": "2026-08-10T00:43:07Z",
+    "html_url": "https://github.com/RogoLabs/CNAScoreCard/actions/runs/31345198998",
+    "error": "Error: No artifacts named \"github-pages\" were found for this workflow run. Ensure artifacts are uploaded with actions/upload-artifact@v4 or later."
+  },
+  {
     "repo": "VulnRadar-Demo",
     "workflow": "VulnRadar Notifications",
     "run_id": 31124853267,
@@ -118,14 +126,6 @@
     "created_at": "2026-07-30T00:07:29Z",
     "html_url": "https://github.com/RogoLabs/cvefloodline.org/actions/runs/30501704605",
     "error": "Process completed with exit code 1."
-  },
-  {
-    "repo": "patchthisapp",
-    "workflow": "Update List",
-    "run_id": 30275979641,
-    "created_at": "2026-07-27T14:37:34Z",
-    "html_url": "https://github.com/RogoLabs/patchthisapp/actions/runs/30275979641",
-    "error": "Timeout reached, aborting!"
   },
   {
     "repo": "CVEForecast",
