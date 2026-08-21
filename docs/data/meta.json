@@ -1,6 +1,6 @@
 {
   "org": "RogoLabs",
-  "updated_at": "2026-08-20T06:57:08.077191+00:00",
+  "updated_at": "2026-08-21T06:58:34.373539+00:00",
   "repos": [
     ".github",
     "CNAPulse",
@@ -16,6 +16,7 @@
     "EUVD",
     "GhostCVEs",
     "ITESO-Lecture",
+    "RBP",
     "SADP-Tracker",
     "VulnRadar",
     "VulnRadar-Demo",

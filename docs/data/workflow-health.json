@@ -21,11 +21,11 @@
     "success_rate": 96.8
   },
   "CVEForecast": {
-    "total": 61,
-    "success": 57,
-    "failure": 2,
-    "cancelled": 2,
-    "success_rate": 93.4
+    "total": 41,
+    "success": 40,
+    "failure": 1,
+    "cancelled": 0,
+    "success_rate": 97.6
   },
   "CVETime": {
     "total": 30,
@@ -42,11 +42,18 @@
     "success_rate": 100.0
   },
   "GhostCVEs": {
-    "total": 32,
-    "success": 32,
+    "total": 31,
+    "success": 30,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 100.0
+    "success_rate": 96.8
+  },
+  "RBP": {
+    "total": 43,
+    "success": 40,
+    "failure": 3,
+    "cancelled": 0,
+    "success_rate": 93.0
   },
   "SADP-Tracker": {
     "total": 100,
