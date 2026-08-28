@@ -42,18 +42,18 @@
     "success_rate": 100.0
   },
   "GhostCVEs": {
-    "total": 31,
+    "total": 30,
     "success": 30,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 96.8
+    "success_rate": 100.0
   },
   "RBP": {
     "total": 100,
-    "success": 75,
-    "failure": 14,
-    "cancelled": 7,
-    "success_rate": 75.0
+    "success": 77,
+    "failure": 15,
+    "cancelled": 5,
+    "success_rate": 77.0
   },
   "SADP-Tracker": {
     "total": 100,
