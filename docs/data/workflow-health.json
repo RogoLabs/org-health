@@ -43,17 +43,17 @@
   },
   "GhostCVEs": {
     "total": 31,
-    "success": 30,
+    "success": 31,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 96.8
+    "success_rate": 100.0
   },
   "RBP": {
     "total": 100,
-    "success": 78,
-    "failure": 15,
-    "cancelled": 4,
-    "success_rate": 78.0
+    "success": 80,
+    "failure": 12,
+    "cancelled": 6,
+    "success_rate": 80.0
   },
   "SADP-Tracker": {
     "total": 100,
@@ -112,8 +112,8 @@
     "success_rate": 96.0
   },
   "rogolabs.net": {
-    "total": 5,
-    "success": 5,
+    "total": 4,
+    "success": 4,
     "failure": 0,
     "cancelled": 0,
     "success_rate": 100.0
