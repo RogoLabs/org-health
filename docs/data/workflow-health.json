@@ -8,10 +8,10 @@
   },
   "CNAScoreCard": {
     "total": 100,
-    "success": 96,
-    "failure": 3,
+    "success": 97,
+    "failure": 2,
     "cancelled": 1,
-    "success_rate": 96.0
+    "success_rate": 97.0
   },
   "CVE-Updates": {
     "total": 58,
@@ -21,11 +21,11 @@
     "success_rate": 96.6
   },
   "CVEForecast": {
-    "total": 41,
-    "success": 40,
+    "total": 40,
+    "success": 39,
     "failure": 1,
     "cancelled": 0,
-    "success_rate": 97.6
+    "success_rate": 97.5
   },
   "CVETime": {
     "total": 30,
@@ -42,18 +42,18 @@
     "success_rate": 100.0
   },
   "GhostCVEs": {
-    "total": 31,
-    "success": 31,
+    "total": 29,
+    "success": 28,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 100.0
+    "success_rate": 96.6
   },
   "RBP": {
     "total": 100,
-    "success": 80,
-    "failure": 12,
+    "success": 78,
+    "failure": 14,
     "cancelled": 6,
-    "success_rate": 80.0
+    "success_rate": 78.0
   },
   "SADP-Tracker": {
     "total": 100,
@@ -91,11 +91,11 @@
     "success_rate": 99.0
   },
   "cvefloodline.org": {
-    "total": 50,
-    "success": 42,
+    "total": 49,
+    "success": 41,
     "failure": 8,
     "cancelled": 0,
-    "success_rate": 84.0
+    "success_rate": 83.7
   },
   "org-health": {
     "total": 58,
@@ -106,10 +106,10 @@
   },
   "patchthisapp": {
     "total": 100,
-    "success": 96,
-    "failure": 4,
+    "success": 97,
+    "failure": 3,
     "cancelled": 0,
-    "success_rate": 96.0
+    "success_rate": 97.0
   },
   "rogolabs.net": {
     "total": 4,
