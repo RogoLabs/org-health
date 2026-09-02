@@ -1,7 +1,7 @@
 {
   "CNAPulse": {
     "CNA Anomaly Monitor - Every 3 Hours": {
-      "avg_seconds": 141.4,
+      "avg_seconds": 140.9,
       "max_seconds": 369.0,
       "min_seconds": 92.0,
       "run_count": 99
@@ -15,7 +15,7 @@
   },
   "CNAScoreCard": {
     "Scheduled Data Pipeline": {
-      "avg_seconds": 193.8,
+      "avg_seconds": 194.0,
       "max_seconds": 247.0,
       "min_seconds": 150.0,
       "run_count": 93
@@ -59,30 +59,42 @@
   },
   "CVE-Updates": {
     "pages build and deployment": {
-      "avg_seconds": 36.2,
+      "avg_seconds": 35.8,
       "max_seconds": 282.0,
       "min_seconds": 22.0,
-      "run_count": 28
+      "run_count": 29
     },
     "CVE Update Report": {
-      "avg_seconds": 1036.2,
+      "avg_seconds": 1074.1,
       "max_seconds": 1186.0,
-      "min_seconds": 15.0,
+      "min_seconds": 659.0,
       "run_count": 29
     }
   },
   "CVEForecast": {
+    "CVE Forecast Daily Update": {
+      "avg_seconds": 547.1,
+      "max_seconds": 605.0,
+      "min_seconds": 405.0,
+      "run_count": 30
+    },
+    "pip in /. - Update #1549541741": {
+      "avg_seconds": 94.0,
+      "max_seconds": 94.0,
+      "min_seconds": 94.0,
+      "run_count": 1
+    },
+    "github_actions in /. - Update #1549541733": {
+      "avg_seconds": 40.0,
+      "max_seconds": 40.0,
+      "min_seconds": 40.0,
+      "run_count": 1
+    },
     "Monthly Hyperparameter Tuning": {
       "avg_seconds": 3991.0,
       "max_seconds": 3991.0,
       "min_seconds": 3991.0,
       "run_count": 1
-    },
-    "CVE Forecast Daily Update": {
-      "avg_seconds": 550.7,
-      "max_seconds": 605.0,
-      "min_seconds": 405.0,
-      "run_count": 30
     },
     "github_actions in /. - Update #1540341416": {
       "avg_seconds": 52.0,
@@ -147,7 +159,7 @@
   },
   "CVETime": {
     "Update CVE Summary and Deploy": {
-      "avg_seconds": 448.9,
+      "avg_seconds": 449.7,
       "max_seconds": 519.0,
       "min_seconds": 294.0,
       "run_count": 30
@@ -155,7 +167,7 @@
   },
   "EPSS-History": {
     "Daily EPSS Download": {
-      "avg_seconds": 149.7,
+      "avg_seconds": 152.1,
       "max_seconds": 350.0,
       "min_seconds": 116.0,
       "run_count": 30
@@ -163,13 +175,13 @@
   },
   "GhostCVEs": {
     "Deploy GitHub Pages Dashboard": {
-      "avg_seconds": 43.7,
+      "avg_seconds": 43.4,
       "max_seconds": 216.0,
       "min_seconds": 26.0,
-      "run_count": 15
+      "run_count": 16
     },
     "Ghost Hunter - Automated CVE Hunt": {
-      "avg_seconds": 17771.7,
+      "avg_seconds": 17874.7,
       "max_seconds": 20929.0,
       "min_seconds": 15515.0,
       "run_count": 15
@@ -177,13 +189,13 @@
   },
   "RBP": {
     "Build and Deploy": {
-      "avg_seconds": 1747.7,
+      "avg_seconds": 1801.7,
       "max_seconds": 3273.0,
-      "min_seconds": 576.0,
+      "min_seconds": 578.0,
       "run_count": 51
     },
     "Tests": {
-      "avg_seconds": 125.6,
+      "avg_seconds": 130.3,
       "max_seconds": 234.0,
       "min_seconds": 19.0,
       "run_count": 47
@@ -191,18 +203,18 @@
   },
   "SADP-Tracker": {
     "Update Data and Deploy SADP Tracker": {
-      "avg_seconds": 167.1,
-      "max_seconds": 731.0,
+      "avg_seconds": 158.1,
+      "max_seconds": 446.0,
       "min_seconds": 25.0,
       "run_count": 100
     }
   },
   "VulnRadar": {
     "CI": {
-      "avg_seconds": 33.3,
+      "avg_seconds": 34.0,
       "max_seconds": 39.0,
-      "min_seconds": 29.0,
-      "run_count": 3
+      "min_seconds": 32.0,
+      "run_count": 4
     },
     "pip in /. - Update #1548347447": {
       "avg_seconds": 64.0,
@@ -219,56 +231,56 @@
   },
   "VulnRadar-Demo": {
     "VulnRadar Notifications": {
-      "avg_seconds": 26.7,
-      "max_seconds": 53.0,
-      "min_seconds": 21.0,
+      "avg_seconds": 27.4,
+      "max_seconds": 70.0,
+      "min_seconds": 20.0,
       "run_count": 67
     },
     "Update Vulnerability Radar Data": {
-      "avg_seconds": 483.5,
-      "max_seconds": 1205.0,
-      "min_seconds": 374.0,
+      "avg_seconds": 601.9,
+      "max_seconds": 1555.0,
+      "min_seconds": 389.0,
       "run_count": 33
     }
   },
   "consensus-engine": {
     "Ingest & Compute Drift": {
-      "avg_seconds": 658.9,
-      "max_seconds": 1290.0,
+      "avg_seconds": 651.6,
+      "max_seconds": 871.0,
       "min_seconds": 533.0,
       "run_count": 100
     }
   },
   "cve.icu": {
     "Push on main": {
-      "avg_seconds": 70.3,
+      "avg_seconds": 70.0,
       "max_seconds": 79.0,
       "min_seconds": 59.0,
-      "run_count": 30
+      "run_count": 32
     },
     "pages build and deployment": {
-      "avg_seconds": 30.2,
-      "max_seconds": 109.0,
+      "avg_seconds": 38.0,
+      "max_seconds": 253.0,
       "min_seconds": 20.0,
-      "run_count": 30
+      "run_count": 31
     },
     "Build and Deploy CVE.ICU": {
-      "avg_seconds": 712.2,
-      "max_seconds": 1719.0,
+      "avg_seconds": 677.9,
+      "max_seconds": 947.0,
       "min_seconds": 556.0,
       "run_count": 31
     },
     "Scheduled": {
-      "avg_seconds": 73.5,
+      "avg_seconds": 77.0,
       "max_seconds": 77.0,
-      "min_seconds": 70.0,
-      "run_count": 2
+      "min_seconds": 77.0,
+      "run_count": 1
     },
     "CI Tests": {
-      "avg_seconds": 75.5,
+      "avg_seconds": 75.0,
       "max_seconds": 82.0,
       "min_seconds": 70.0,
-      "run_count": 4
+      "run_count": 3
     },
     "PR #21": {
       "avg_seconds": 61.0,
@@ -281,17 +293,11 @@
       "max_seconds": 50.0,
       "min_seconds": 50.0,
       "run_count": 1
-    },
-    "Running Copilot cloud agent": {
-      "avg_seconds": 285.0,
-      "max_seconds": 285.0,
-      "min_seconds": 285.0,
-      "run_count": 1
     }
   },
   "cvefloodline.org": {
     "Daily floodline update": {
-      "avg_seconds": 73.5,
+      "avg_seconds": 74.2,
       "max_seconds": 106.0,
       "min_seconds": 56.0,
       "run_count": 30
@@ -377,21 +383,21 @@
   },
   "org-health": {
     "pages build and deployment": {
-      "avg_seconds": 49.3,
+      "avg_seconds": 49.4,
       "max_seconds": 149.0,
       "min_seconds": 36.0,
       "run_count": 28
     },
     "Update Org Health Data": {
-      "avg_seconds": 110.4,
-      "max_seconds": 150.0,
+      "avg_seconds": 109.0,
+      "max_seconds": 131.0,
       "min_seconds": 84.0,
       "run_count": 29
     }
   },
   "patchthisapp": {
     "Update List": {
-      "avg_seconds": 184.7,
+      "avg_seconds": 186.6,
       "max_seconds": 912.0,
       "min_seconds": 7.0,
       "run_count": 92

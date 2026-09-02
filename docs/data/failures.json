@@ -120,6 +120,14 @@
     "error": "HttpError: self-signed certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
   },
   {
+    "repo": "VulnRadar-Demo",
+    "workflow": "Update Vulnerability Radar Data",
+    "run_id": 31480715038,
+    "created_at": "2026-08-11T10:06:17Z",
+    "html_url": "https://github.com/RogoLabs/VulnRadar-Demo/actions/runs/31480715038",
+    "error": "Process completed with exit code 1."
+  },
+  {
     "repo": "CNAScoreCard",
     "workflow": "Scheduled Data Pipeline",
     "run_id": 31345198998,
@@ -150,13 +158,5 @@
     "created_at": "2026-08-06T13:26:40Z",
     "html_url": "https://github.com/RogoLabs/CNAScoreCard/actions/runs/31105937780",
     "error": "Timeout reached, aborting!"
-  },
-  {
-    "repo": "CVE-Updates",
-    "workflow": "CVE Update Report",
-    "run_id": 30801863903,
-    "created_at": "2026-08-03T09:32:50Z",
-    "html_url": "https://github.com/RogoLabs/CVE-Updates/actions/runs/30801863903",
-    "error": "ENOENT: no such file or directory, scandir '/home/runner/work/CVE-Updates/CVE-Updates/.git/objects/b7'"
   }
 ]
