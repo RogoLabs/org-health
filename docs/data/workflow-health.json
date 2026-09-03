@@ -1,10 +1,10 @@
 {
   "CNAPulse": {
     "total": 100,
-    "success": 99,
-    "failure": 1,
+    "success": 100,
+    "failure": 0,
     "cancelled": 0,
-    "success_rate": 99.0
+    "success_rate": 100.0
   },
   "CNAScoreCard": {
     "total": 100,
@@ -43,17 +43,17 @@
   },
   "GhostCVEs": {
     "total": 31,
-    "success": 31,
+    "success": 30,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 100.0
+    "success_rate": 96.8
   },
   "RBP": {
     "total": 100,
-    "success": 85,
-    "failure": 13,
-    "cancelled": 2,
-    "success_rate": 85.0
+    "success": 87,
+    "failure": 10,
+    "cancelled": 3,
+    "success_rate": 87.0
   },
   "SADP-Tracker": {
     "total": 100,
@@ -91,11 +91,11 @@
     "success_rate": 100.0
   },
   "cvefloodline.org": {
-    "total": 50,
-    "success": 42,
-    "failure": 8,
+    "total": 55,
+    "success": 45,
+    "failure": 10,
     "cancelled": 0,
-    "success_rate": 84.0
+    "success_rate": 81.8
   },
   "org-health": {
     "total": 58,
@@ -112,8 +112,8 @@
     "success_rate": 97.0
   },
   "rogolabs.net": {
-    "total": 5,
-    "success": 5,
+    "total": 4,
+    "success": 4,
     "failure": 0,
     "cancelled": 0,
     "success_rate": 100.0
