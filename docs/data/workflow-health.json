@@ -8,10 +8,10 @@
   },
   "CNAScoreCard": {
     "total": 100,
-    "success": 97,
-    "failure": 2,
+    "success": 98,
+    "failure": 1,
     "cancelled": 1,
-    "success_rate": 97.0
+    "success_rate": 98.0
   },
   "CVE-Updates": {
     "total": 59,
@@ -21,11 +21,11 @@
     "success_rate": 98.3
   },
   "CVEForecast": {
-    "total": 43,
-    "success": 42,
+    "total": 41,
+    "success": 40,
     "failure": 1,
     "cancelled": 0,
-    "success_rate": 97.7
+    "success_rate": 97.6
   },
   "CVETime": {
     "total": 30,
@@ -43,10 +43,10 @@
   },
   "GhostCVEs": {
     "total": 31,
-    "success": 30,
+    "success": 31,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 96.8
+    "success_rate": 100.0
   },
   "RBP": {
     "total": 100,
