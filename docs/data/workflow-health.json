@@ -43,15 +43,15 @@
   },
   "GhostCVEs": {
     "total": 31,
-    "success": 30,
+    "success": 29,
     "failure": 0,
     "cancelled": 1,
-    "success_rate": 96.8
+    "success_rate": 93.5
   },
   "RBP": {
     "total": 100,
     "success": 88,
-    "failure": 10,
+    "failure": 9,
     "cancelled": 2,
     "success_rate": 88.0
   },
@@ -64,10 +64,10 @@
   },
   "VulnRadar": {
     "total": 100,
-    "success": 2,
+    "success": 0,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 2.0
+    "success_rate": 0.0
   },
   "VulnRadar-Demo": {
     "total": 100,
