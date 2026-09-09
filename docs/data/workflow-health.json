@@ -21,11 +21,11 @@
     "success_rate": 98.3
   },
   "CVEForecast": {
-    "total": 41,
-    "success": 40,
-    "failure": 1,
+    "total": 47,
+    "success": 43,
+    "failure": 4,
     "cancelled": 0,
-    "success_rate": 97.6
+    "success_rate": 91.5
   },
   "CVETime": {
     "total": 30,
@@ -43,17 +43,17 @@
   },
   "GhostCVEs": {
     "total": 31,
-    "success": 29,
+    "success": 28,
     "failure": 0,
     "cancelled": 2,
-    "success_rate": 93.5
+    "success_rate": 90.3
   },
   "RBP": {
     "total": 100,
-    "success": 93,
-    "failure": 4,
-    "cancelled": 3,
-    "success_rate": 93.0
+    "success": 94,
+    "failure": 5,
+    "cancelled": 1,
+    "success_rate": 94.0
   },
   "SADP-Tracker": {
     "total": 100,
@@ -64,17 +64,17 @@
   },
   "VulnRadar": {
     "total": 100,
-    "success": 3,
+    "success": 4,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 3.0
+    "success_rate": 4.0
   },
   "VulnRadar-Demo": {
     "total": 100,
-    "success": 99,
+    "success": 100,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 99.0
+    "success_rate": 100.0
   },
   "consensus-engine": {
     "total": 100,
@@ -112,8 +112,8 @@
     "success_rate": 97.0
   },
   "rogolabs.net": {
-    "total": 5,
-    "success": 5,
+    "total": 4,
+    "success": 4,
     "failure": 0,
     "cancelled": 0,
     "success_rate": 100.0
