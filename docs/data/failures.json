@@ -112,6 +112,14 @@
     "error": "Process completed with exit code 1."
   },
   {
+    "repo": "cve.icu",
+    "workflow": "CI Tests",
+    "run_id": 32144049469,
+    "created_at": "2026-08-18T13:43:46Z",
+    "html_url": "https://github.com/RogoLabs/cve.icu/actions/runs/32144049469",
+    "error": "Process completed with exit code 1."
+  },
+  {
     "repo": "CVEForecast",
     "workflow": "Lint",
     "run_id": 32138407143,
@@ -150,13 +158,5 @@
     "created_at": "2026-08-12T01:54:40Z",
     "html_url": "https://github.com/RogoLabs/CNAPulse/actions/runs/31555161122",
     "error": "HttpError: self-signed certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
-  },
-  {
-    "repo": "VulnRadar-Demo",
-    "workflow": "Update Vulnerability Radar Data",
-    "run_id": 31480715038,
-    "created_at": "2026-08-11T10:06:17Z",
-    "html_url": "https://github.com/RogoLabs/VulnRadar-Demo/actions/runs/31480715038",
-    "error": "Process completed with exit code 1."
   }
 ]

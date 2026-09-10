@@ -42,11 +42,11 @@
     "success_rate": 100.0
   },
   "GhostCVEs": {
-    "total": 31,
+    "total": 30,
     "success": 28,
     "failure": 0,
     "cancelled": 2,
-    "success_rate": 90.3
+    "success_rate": 93.3
   },
   "RBP": {
     "total": 100,
@@ -91,11 +91,11 @@
     "success_rate": 100.0
   },
   "cvefloodline.org": {
-    "total": 50,
-    "success": 42,
-    "failure": 8,
+    "total": 56,
+    "success": 45,
+    "failure": 11,
     "cancelled": 0,
-    "success_rate": 84.0
+    "success_rate": 80.4
   },
   "org-health": {
     "total": 58,
