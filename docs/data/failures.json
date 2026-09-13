@@ -136,6 +136,14 @@
     "error": "Process completed with exit code 1."
   },
   {
+    "repo": "cve.icu",
+    "workflow": "Build and Deploy CVE.ICU",
+    "run_id": 32137585700,
+    "created_at": "2026-08-18T12:34:51Z",
+    "html_url": "https://github.com/RogoLabs/cve.icu/actions/runs/32137585700",
+    "error": "Process completed with exit code 1."
+  },
+  {
     "repo": "CNAPulse",
     "workflow": "CNA Anomaly Monitor - Every 3 Hours",
     "run_id": 32055817467,
@@ -150,13 +158,5 @@
     "created_at": "2026-08-17T18:17:31Z",
     "html_url": "https://github.com/RogoLabs/CNAScoreCard/actions/runs/32054201208",
     "error": "Error: Failed to create deployment (status: 503) with build version e152e152a3baf38fdd8b8eacb21d4f28327f343c. Request ID EC01:1D8505:55037B:FD8C4E:6A8350F0 Server error, is githubstatus.com reporting a Pages outage? Please re-run the deployment at a later time."
-  },
-  {
-    "repo": "VulnRadar-Demo",
-    "workflow": "Update Vulnerability Radar Data",
-    "run_id": 31783427979,
-    "created_at": "2026-08-14T08:19:19Z",
-    "html_url": "https://github.com/RogoLabs/VulnRadar-Demo/actions/runs/31783427979",
-    "error": "Process completed with exit code 1."
   }
 ]
