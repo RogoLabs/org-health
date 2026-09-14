@@ -42,11 +42,11 @@
     "success_rate": 100.0
   },
   "GhostCVEs": {
-    "total": 31,
+    "total": 30,
     "success": 28,
     "failure": 0,
     "cancelled": 2,
-    "success_rate": 90.3
+    "success_rate": 93.3
   },
   "RBP": {
     "total": 100,
@@ -64,17 +64,17 @@
   },
   "VulnRadar": {
     "total": 100,
-    "success": 4,
+    "success": 0,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 4.0
+    "success_rate": 0.0
   },
   "VulnRadar-Demo": {
     "total": 100,
-    "success": 100,
+    "success": 99,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 100.0
+    "success_rate": 99.0
   },
   "consensus-engine": {
     "total": 100,
@@ -91,11 +91,11 @@
     "success_rate": 100.0
   },
   "cvefloodline.org": {
-    "total": 50,
-    "success": 42,
+    "total": 49,
+    "success": 41,
     "failure": 8,
     "cancelled": 0,
-    "success_rate": 84.0
+    "success_rate": 83.7
   },
   "org-health": {
     "total": 59,
