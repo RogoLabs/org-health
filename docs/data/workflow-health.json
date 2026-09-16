@@ -1,4 +1,11 @@
 {
+  "CNAPulse": {
+    "total": 100,
+    "success": 100,
+    "failure": 0,
+    "cancelled": 0,
+    "success_rate": 100.0
+  },
   "CNAScoreCard": {
     "total": 100,
     "success": 100,
@@ -14,11 +21,11 @@
     "success_rate": 98.3
   },
   "CVEForecast": {
-    "total": 45,
-    "success": 41,
+    "total": 47,
+    "success": 43,
     "failure": 4,
     "cancelled": 0,
-    "success_rate": 91.1
+    "success_rate": 91.5
   },
   "CVETime": {
     "total": 30,
@@ -38,7 +45,7 @@
     "total": 31,
     "success": 28,
     "failure": 0,
-    "cancelled": 2,
+    "cancelled": 3,
     "success_rate": 90.3
   },
   "RBP": {
@@ -57,10 +64,10 @@
   },
   "VulnRadar": {
     "total": 100,
-    "success": 5,
+    "success": 9,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 5.0
+    "success_rate": 9.0
   },
   "VulnRadar-Demo": {
     "total": 100,
@@ -105,8 +112,8 @@
     "success_rate": 99.0
   },
   "rogolabs.net": {
-    "total": 7,
-    "success": 7,
+    "total": 6,
+    "success": 6,
     "failure": 0,
     "cancelled": 0,
     "success_rate": 100.0
