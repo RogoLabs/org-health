@@ -21,11 +21,11 @@
     "success_rate": 100.0
   },
   "CVEForecast": {
-    "total": 74,
-    "success": 68,
-    "failure": 6,
+    "total": 94,
+    "success": 84,
+    "failure": 10,
     "cancelled": 0,
-    "success_rate": 91.9
+    "success_rate": 89.4
   },
   "CVETime": {
     "total": 30,
@@ -43,10 +43,10 @@
   },
   "GhostCVEs": {
     "total": 31,
-    "success": 28,
+    "success": 27,
     "failure": 0,
     "cancelled": 3,
-    "success_rate": 90.3
+    "success_rate": 87.1
   },
   "RBP": {
     "total": 100,
@@ -91,11 +91,11 @@
     "success_rate": 100.0
   },
   "cvefloodline.org": {
-    "total": 56,
-    "success": 45,
-    "failure": 11,
+    "total": 52,
+    "success": 42,
+    "failure": 10,
     "cancelled": 0,
-    "success_rate": 80.4
+    "success_rate": 80.8
   },
   "org-health": {
     "total": 59,
