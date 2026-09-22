@@ -42,11 +42,11 @@
     "success_rate": 100.0
   },
   "GhostCVEs": {
-    "total": 31,
+    "total": 30,
     "success": 27,
     "failure": 0,
     "cancelled": 3,
-    "success_rate": 87.1
+    "success_rate": 90.0
   },
   "RBP": {
     "total": 100,
@@ -64,10 +64,10 @@
   },
   "VulnRadar": {
     "total": 100,
-    "success": 1,
+    "success": 3,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 1.0
+    "success_rate": 3.0
   },
   "VulnRadar-Demo": {
     "total": 100,
@@ -85,17 +85,17 @@
   },
   "cve.icu": {
     "total": 100,
-    "success": 98,
-    "failure": 2,
+    "success": 96,
+    "failure": 4,
     "cancelled": 0,
-    "success_rate": 98.0
+    "success_rate": 96.0
   },
   "cvefloodline.org": {
-    "total": 51,
-    "success": 41,
+    "total": 52,
+    "success": 42,
     "failure": 10,
     "cancelled": 0,
-    "success_rate": 80.4
+    "success_rate": 80.8
   },
   "org-health": {
     "total": 59,
@@ -112,8 +112,8 @@
     "success_rate": 99.0
   },
   "rogolabs.net": {
-    "total": 6,
-    "success": 6,
+    "total": 7,
+    "success": 7,
     "failure": 0,
     "cancelled": 0,
     "success_rate": 100.0
