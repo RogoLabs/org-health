@@ -43,10 +43,10 @@
   },
   "GhostCVEs": {
     "total": 31,
-    "success": 28,
+    "success": 27,
     "failure": 0,
     "cancelled": 3,
-    "success_rate": 90.3
+    "success_rate": 87.1
   },
   "RBP": {
     "total": 100,
@@ -85,10 +85,10 @@
   },
   "cve.icu": {
     "total": 100,
-    "success": 98,
-    "failure": 1,
-    "cancelled": 1,
-    "success_rate": 98.0
+    "success": 100,
+    "failure": 0,
+    "cancelled": 0,
+    "success_rate": 100.0
   },
   "cvefloodline.org": {
     "total": 57,
