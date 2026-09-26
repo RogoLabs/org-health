@@ -14,8 +14,8 @@
     "success_rate": 100.0
   },
   "CVE-Updates": {
-    "total": 60,
-    "success": 60,
+    "total": 62,
+    "success": 62,
     "failure": 0,
     "cancelled": 0,
     "success_rate": 100.0
@@ -42,11 +42,11 @@
     "success_rate": 100.0
   },
   "GhostCVEs": {
-    "total": 31,
-    "success": 27,
+    "total": 32,
+    "success": 29,
     "failure": 0,
     "cancelled": 3,
-    "success_rate": 87.1
+    "success_rate": 90.6
   },
   "RBP": {
     "total": 100,
@@ -85,24 +85,24 @@
   },
   "cve.icu": {
     "total": 100,
-    "success": 100,
-    "failure": 0,
-    "cancelled": 0,
-    "success_rate": 100.0
+    "success": 97,
+    "failure": 2,
+    "cancelled": 1,
+    "success_rate": 97.0
   },
   "cvefloodline.org": {
-    "total": 57,
-    "success": 45,
-    "failure": 12,
+    "total": 52,
+    "success": 42,
+    "failure": 10,
     "cancelled": 0,
-    "success_rate": 78.9
+    "success_rate": 80.8
   },
   "org-health": {
-    "total": 59,
-    "success": 58,
+    "total": 61,
+    "success": 60,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 98.3
+    "success_rate": 98.4
   },
   "patchthisapp": {
     "total": 100,
@@ -112,8 +112,8 @@
     "success_rate": 99.0
   },
   "rogolabs.net": {
-    "total": 6,
-    "success": 6,
+    "total": 8,
+    "success": 8,
     "failure": 0,
     "cancelled": 0,
     "success_rate": 100.0
