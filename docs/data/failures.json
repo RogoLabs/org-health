@@ -1,5 +1,13 @@
 [
   {
+    "repo": "CVEForecast",
+    "workflow": "CVE Forecast Daily Update",
+    "run_id": 38021408696,
+    "created_at": "2026-10-10T03:40:47Z",
+    "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/38021408696",
+    "error": "Process completed with exit code 1."
+  },
+  {
     "repo": "RBP",
     "workflow": "Build and Deploy",
     "run_id": 37892158484,
@@ -85,14 +93,6 @@
     "run_id": 36960162179,
     "created_at": "2026-10-02T03:26:15Z",
     "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/36960162179",
-    "error": "Process completed with exit code 1."
-  },
-  {
-    "repo": "CVEForecast",
-    "workflow": "CVE Forecast Daily Update",
-    "run_id": 36517693471,
-    "created_at": "2026-09-29T03:33:51Z",
-    "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/36517693471",
     "error": "Process completed with exit code 1."
   },
   {

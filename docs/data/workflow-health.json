@@ -14,18 +14,18 @@
     "success_rate": 100.0
   },
   "CVE-Updates": {
-    "total": 59,
-    "success": 57,
+    "total": 58,
+    "success": 55,
     "failure": 0,
-    "cancelled": 2,
-    "success_rate": 96.6
+    "cancelled": 3,
+    "success_rate": 94.8
   },
   "CVEForecast": {
     "total": 100,
-    "success": 83,
-    "failure": 17,
+    "success": 82,
+    "failure": 18,
     "cancelled": 0,
-    "success_rate": 83.0
+    "success_rate": 82.0
   },
   "CVETime": {
     "total": 30,
@@ -45,7 +45,7 @@
     "total": 30,
     "success": 23,
     "failure": 0,
-    "cancelled": 6,
+    "cancelled": 7,
     "success_rate": 76.7
   },
   "RBP": {
@@ -91,11 +91,11 @@
     "success_rate": 99.0
   },
   "cvefloodline.org": {
-    "total": 58,
-    "success": 44,
-    "failure": 14,
+    "total": 52,
+    "success": 41,
+    "failure": 11,
     "cancelled": 0,
-    "success_rate": 75.9
+    "success_rate": 78.8
   },
   "org-health": {
     "total": 59,
