@@ -22,10 +22,10 @@
   },
   "CVEForecast": {
     "total": 100,
-    "success": 82,
-    "failure": 18,
+    "success": 81,
+    "failure": 19,
     "cancelled": 0,
-    "success_rate": 82.0
+    "success_rate": 81.0
   },
   "CVETime": {
     "total": 30,
@@ -43,10 +43,10 @@
   },
   "GhostCVEs": {
     "total": 30,
-    "success": 23,
+    "success": 22,
     "failure": 0,
     "cancelled": 7,
-    "success_rate": 76.7
+    "success_rate": 73.3
   },
   "RBP": {
     "total": 100,
@@ -85,10 +85,10 @@
   },
   "cve.icu": {
     "total": 100,
-    "success": 99,
-    "failure": 0,
+    "success": 98,
+    "failure": 2,
     "cancelled": 0,
-    "success_rate": 99.0
+    "success_rate": 98.0
   },
   "cvefloodline.org": {
     "total": 52,
