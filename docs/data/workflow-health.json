@@ -22,10 +22,10 @@
   },
   "CVEForecast": {
     "total": 100,
-    "success": 81,
-    "failure": 19,
+    "success": 80,
+    "failure": 20,
     "cancelled": 0,
-    "success_rate": 81.0
+    "success_rate": 80.0
   },
   "CVETime": {
     "total": 30,
@@ -43,10 +43,10 @@
   },
   "GhostCVEs": {
     "total": 30,
-    "success": 22,
+    "success": 23,
     "failure": 0,
     "cancelled": 7,
-    "success_rate": 73.3
+    "success_rate": 76.7
   },
   "RBP": {
     "total": 100,
@@ -85,17 +85,17 @@
   },
   "cve.icu": {
     "total": 100,
-    "success": 98,
-    "failure": 2,
+    "success": 100,
+    "failure": 0,
     "cancelled": 0,
-    "success_rate": 98.0
+    "success_rate": 100.0
   },
   "cvefloodline.org": {
-    "total": 52,
-    "success": 41,
+    "total": 51,
+    "success": 40,
     "failure": 11,
     "cancelled": 0,
-    "success_rate": 78.8
+    "success_rate": 78.4
   },
   "org-health": {
     "total": 59,
