@@ -1,5 +1,29 @@
 [
   {
+    "repo": "CVEForecast",
+    "workflow": "CVE Forecast Daily Update",
+    "run_id": 38840937865,
+    "created_at": "2026-10-16T02:32:15Z",
+    "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/38840937865",
+    "error": "Process completed with exit code 1."
+  },
+  {
+    "repo": "CVEForecast",
+    "workflow": "Tests",
+    "run_id": 38769844197,
+    "created_at": "2026-10-15T16:32:22Z",
+    "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/38769844197",
+    "error": "Process completed with exit code 1."
+  },
+  {
+    "repo": "CNAPulse",
+    "workflow": "CNA Anomaly Monitor - Every 3 Hours",
+    "run_id": 38768719698,
+    "created_at": "2026-10-15T16:24:24Z",
+    "html_url": "https://github.com/RogoLabs/CNAPulse/actions/runs/38768719698",
+    "error": "Timeout reached, aborting!"
+  },
+  {
     "repo": "RBP",
     "workflow": "Build and Deploy",
     "run_id": 38513889334,
@@ -80,22 +104,6 @@
     "error": "Process completed with exit code 1."
   },
   {
-    "repo": "CVEForecast",
-    "workflow": "Tests",
-    "run_id": 37465359249,
-    "created_at": "2026-10-06T12:43:39Z",
-    "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/37465359249",
-    "error": "Process completed with exit code 1."
-  },
-  {
-    "repo": "CVEForecast",
-    "workflow": "CVE Forecast Daily Update",
-    "run_id": 37412328808,
-    "created_at": "2026-10-06T04:09:08Z",
-    "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/37412328808",
-    "error": "Process completed with exit code 1."
-  },
-  {
     "repo": "CNAPulse",
     "workflow": "CNA Anomaly Monitor - Every 3 Hours",
     "run_id": 37319291606,
@@ -149,14 +157,6 @@
     "run_id": 35922899606,
     "created_at": "2026-09-23T21:30:49Z",
     "html_url": "https://github.com/RogoLabs/RBP/actions/runs/35922899606",
-    "error": "Process completed with exit code 1."
-  },
-  {
-    "repo": "RBP",
-    "workflow": "Build and Deploy",
-    "run_id": 35892695043,
-    "created_at": "2026-09-23T17:00:45Z",
-    "html_url": "https://github.com/RogoLabs/RBP/actions/runs/35892695043",
     "error": "Process completed with exit code 1."
   }
 ]
