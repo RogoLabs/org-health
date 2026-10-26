@@ -1,11 +1,4 @@
 {
-  "CNAPulse": {
-    "total": 100,
-    "success": 98,
-    "failure": 2,
-    "cancelled": 0,
-    "success_rate": 98.0
-  },
   "CNAScoreCard": {
     "total": 100,
     "success": 100,
@@ -14,18 +7,18 @@
     "success_rate": 100.0
   },
   "CVE-Updates": {
-    "total": 53,
-    "success": 43,
+    "total": 51,
+    "success": 40,
     "failure": 0,
-    "cancelled": 10,
-    "success_rate": 81.1
+    "cancelled": 11,
+    "success_rate": 78.4
   },
   "CVEForecast": {
     "total": 48,
-    "success": 28,
-    "failure": 20,
+    "success": 27,
+    "failure": 21,
     "cancelled": 0,
-    "success_rate": 58.3
+    "success_rate": 56.2
   },
   "CVETime": {
     "total": 30,
@@ -45,7 +38,7 @@
     "total": 31,
     "success": 20,
     "failure": 0,
-    "cancelled": 9,
+    "cancelled": 10,
     "success_rate": 64.5
   },
   "RBP": {
@@ -64,17 +57,17 @@
   },
   "VulnRadar": {
     "total": 100,
-    "success": 8,
+    "success": 3,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 8.0
+    "success_rate": 3.0
   },
   "VulnRadar-Demo": {
     "total": 100,
-    "success": 97,
+    "success": 98,
     "failure": 1,
     "cancelled": 0,
-    "success_rate": 97.0
+    "success_rate": 98.0
   },
   "consensus-engine": {
     "total": 100,
@@ -85,10 +78,10 @@
   },
   "cve.icu": {
     "total": 100,
-    "success": 100,
+    "success": 99,
     "failure": 0,
-    "cancelled": 0,
-    "success_rate": 100.0
+    "cancelled": 1,
+    "success_rate": 99.0
   },
   "cvefloodline.org": {
     "total": 52,
@@ -98,11 +91,11 @@
     "success_rate": 78.8
   },
   "org-health": {
-    "total": 61,
-    "success": 60,
+    "total": 59,
+    "success": 58,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 98.4
+    "success_rate": 98.3
   },
   "patchthisapp": {
     "total": 100,
@@ -111,9 +104,16 @@
     "cancelled": 0,
     "success_rate": 97.0
   },
+  "quarry": {
+    "total": 1,
+    "success": 1,
+    "failure": 0,
+    "cancelled": 0,
+    "success_rate": 100.0
+  },
   "rogolabs.net": {
-    "total": 7,
-    "success": 7,
+    "total": 5,
+    "success": 5,
     "failure": 0,
     "cancelled": 0,
     "success_rate": 100.0
