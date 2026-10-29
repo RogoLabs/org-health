@@ -2,6 +2,38 @@
   {
     "repo": "RBP",
     "workflow": "Build and Deploy",
+    "run_id": 40825606297,
+    "created_at": "2026-10-29T05:49:33Z",
+    "html_url": "https://github.com/RogoLabs/RBP/actions/runs/40825606297",
+    "error": "Process completed with exit code 1."
+  },
+  {
+    "repo": "CVEForecast",
+    "workflow": "CVE Forecast Daily Update",
+    "run_id": 40813936218,
+    "created_at": "2026-10-29T03:45:35Z",
+    "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/40813936218",
+    "error": "Process completed with exit code 1."
+  },
+  {
+    "repo": "RBP",
+    "workflow": "Build and Deploy",
+    "run_id": 40781214236,
+    "created_at": "2026-10-28T22:36:05Z",
+    "html_url": "https://github.com/RogoLabs/RBP/actions/runs/40781214236",
+    "error": "Process completed with exit code 1."
+  },
+  {
+    "repo": "RBP",
+    "workflow": "Build and Deploy",
+    "run_id": 40691997087,
+    "created_at": "2026-10-28T12:56:26Z",
+    "html_url": "https://github.com/RogoLabs/RBP/actions/runs/40691997087",
+    "error": "Process completed with exit code 1."
+  },
+  {
+    "repo": "RBP",
+    "workflow": "Build and Deploy",
     "run_id": 40639676452,
     "created_at": "2026-10-28T05:43:51Z",
     "html_url": "https://github.com/RogoLabs/RBP/actions/runs/40639676452",
@@ -112,14 +144,6 @@
     "error": "Process completed with exit code 1."
   },
   {
-    "repo": "CVEForecast",
-    "workflow": "Tests",
-    "run_id": 38769844197,
-    "created_at": "2026-10-15T16:32:22Z",
-    "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/38769844197",
-    "error": "Process completed with exit code 1."
-  },
-  {
     "repo": "CNAPulse",
     "workflow": "CNA Anomaly Monitor - Every 3 Hours",
     "run_id": 38768719698,
@@ -128,35 +152,11 @@
     "error": "Timeout reached, aborting!"
   },
   {
-    "repo": "RBP",
-    "workflow": "Build and Deploy",
-    "run_id": 38513889334,
-    "created_at": "2026-10-14T04:55:13Z",
-    "html_url": "https://github.com/RogoLabs/RBP/actions/runs/38513889334",
-    "error": "Process completed with exit code 1."
-  },
-  {
-    "repo": "RBP",
-    "workflow": "Build and Deploy",
-    "run_id": 37892158484,
-    "created_at": "2026-10-09T06:10:22Z",
-    "html_url": "https://github.com/RogoLabs/RBP/actions/runs/37892158484",
-    "error": "Process completed with exit code 1."
-  },
-  {
     "repo": "CNAPulse",
     "workflow": "CNA Anomaly Monitor - Every 3 Hours",
     "run_id": 37319291606,
     "created_at": "2026-10-05T13:45:37Z",
     "html_url": "https://github.com/RogoLabs/CNAPulse/actions/runs/37319291606",
     "error": "Deployment failed, try again later."
-  },
-  {
-    "repo": "RBP",
-    "workflow": "Tests",
-    "run_id": 36443360078,
-    "created_at": "2026-09-28T15:24:39Z",
-    "html_url": "https://github.com/RogoLabs/RBP/actions/runs/36443360078",
-    "error": "Process completed with exit code 1."
   }
 ]
