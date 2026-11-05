@@ -21,18 +21,18 @@
     "success_rate": 71.4
   },
   "CVEForecast": {
-    "total": 67,
-    "success": 42,
-    "failure": 25,
+    "total": 63,
+    "success": 40,
+    "failure": 23,
     "cancelled": 0,
-    "success_rate": 62.7
+    "success_rate": 63.5
   },
   "CVEMaps": {
-    "total": 6,
-    "success": 5,
+    "total": 9,
+    "success": 8,
     "failure": 1,
     "cancelled": 0,
-    "success_rate": 83.3
+    "success_rate": 88.9
   },
   "CVETime": {
     "total": 30,
@@ -50,10 +50,10 @@
   },
   "GhostCVEs": {
     "total": 32,
-    "success": 24,
+    "success": 23,
     "failure": 0,
     "cancelled": 7,
-    "success_rate": 75.0
+    "success_rate": 71.9
   },
   "RBP": {
     "total": 100,
@@ -71,10 +71,10 @@
   },
   "VulnRadar": {
     "total": 100,
-    "success": 16,
+    "success": 18,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 16.0
+    "success_rate": 18.0
   },
   "VulnRadar-Demo": {
     "total": 100,
@@ -83,26 +83,33 @@
     "cancelled": 0,
     "success_rate": 100.0
   },
+  "consensus-engine": {
+    "total": 100,
+    "success": 99,
+    "failure": 1,
+    "cancelled": 0,
+    "success_rate": 99.0
+  },
   "cve.icu": {
     "total": 100,
-    "success": 93,
-    "failure": 2,
-    "cancelled": 5,
-    "success_rate": 93.0
-  },
-  "cvefloodline.org": {
-    "total": 67,
-    "success": 57,
-    "failure": 8,
-    "cancelled": 2,
-    "success_rate": 85.1
-  },
-  "org-health": {
-    "total": 62,
-    "success": 61,
+    "success": 99,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 98.4
+    "success_rate": 99.0
+  },
+  "cvefloodline.org": {
+    "total": 72,
+    "success": 63,
+    "failure": 7,
+    "cancelled": 2,
+    "success_rate": 87.5
+  },
+  "org-health": {
+    "total": 60,
+    "success": 59,
+    "failure": 0,
+    "cancelled": 0,
+    "success_rate": 98.3
   },
   "patchthisapp": {
     "total": 100,
@@ -119,8 +126,8 @@
     "success_rate": 47.4
   },
   "rogolabs.net": {
-    "total": 8,
-    "success": 8,
+    "total": 7,
+    "success": 7,
     "failure": 0,
     "cancelled": 0,
     "success_rate": 100.0
