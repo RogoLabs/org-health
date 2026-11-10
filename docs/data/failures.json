@@ -1,5 +1,13 @@
 [
   {
+    "repo": "CVEMaps",
+    "workflow": "Update CVE Map Data",
+    "run_id": 42765129309,
+    "created_at": "2026-11-10T05:55:27Z",
+    "html_url": "https://github.com/RogoLabs/CVEMaps/actions/runs/42765129309",
+    "error": "Build failed! Check the logs for details."
+  },
+  {
     "repo": "CNAScoreCard",
     "workflow": "Scheduled Data Pipeline",
     "run_id": 42555129435,
@@ -93,14 +101,6 @@
     "run_id": 40882153457,
     "created_at": "2026-10-29T13:27:51Z",
     "html_url": "https://github.com/RogoLabs/RBP/actions/runs/40882153457",
-    "error": "Process completed with exit code 1."
-  },
-  {
-    "repo": "RBP",
-    "workflow": "Tests",
-    "run_id": 40881965497,
-    "created_at": "2026-10-29T13:26:36Z",
-    "html_url": "https://github.com/RogoLabs/RBP/actions/runs/40881965497",
     "error": "Process completed with exit code 1."
   },
   {
