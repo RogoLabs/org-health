@@ -1,10 +1,10 @@
 {
   "CNAPulse": {
     "total": 100,
-    "success": 98,
-    "failure": 2,
+    "success": 99,
+    "failure": 1,
     "cancelled": 0,
-    "success_rate": 98.0
+    "success_rate": 99.0
   },
   "CNAScoreCard": {
     "total": 100,
@@ -14,25 +14,25 @@
     "success_rate": 99.0
   },
   "CVE-Updates": {
-    "total": 50,
-    "success": 37,
+    "total": 52,
+    "success": 39,
     "failure": 0,
     "cancelled": 13,
-    "success_rate": 74.0
+    "success_rate": 75.0
   },
   "CVEForecast": {
     "total": 65,
-    "success": 47,
-    "failure": 18,
+    "success": 48,
+    "failure": 17,
     "cancelled": 0,
-    "success_rate": 72.3
+    "success_rate": 73.8
   },
   "CVEMaps": {
-    "total": 25,
-    "success": 23,
+    "total": 28,
+    "success": 26,
     "failure": 2,
     "cancelled": 0,
-    "success_rate": 92.0
+    "success_rate": 92.9
   },
   "CVETime": {
     "total": 30,
@@ -50,10 +50,10 @@
   },
   "GhostCVEs": {
     "total": 32,
-    "success": 24,
+    "success": 23,
     "failure": 0,
     "cancelled": 7,
-    "success_rate": 75.0
+    "success_rate": 71.9
   },
   "RBP": {
     "total": 100,
@@ -71,10 +71,10 @@
   },
   "VulnRadar": {
     "total": 100,
-    "success": 18,
+    "success": 14,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 18.0
+    "success_rate": 14.0
   },
   "VulnRadar-Demo": {
     "total": 100,
@@ -92,24 +92,24 @@
   },
   "cve.icu": {
     "total": 100,
-    "success": 98,
-    "failure": 1,
-    "cancelled": 0,
-    "success_rate": 98.0
-  },
-  "cvefloodline.org": {
-    "total": 73,
-    "success": 66,
-    "failure": 5,
-    "cancelled": 2,
-    "success_rate": 90.4
-  },
-  "org-health": {
-    "total": 60,
-    "success": 59,
+    "success": 100,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 98.3
+    "success_rate": 100.0
+  },
+  "cvefloodline.org": {
+    "total": 74,
+    "success": 67,
+    "failure": 5,
+    "cancelled": 2,
+    "success_rate": 90.5
+  },
+  "org-health": {
+    "total": 62,
+    "success": 61,
+    "failure": 0,
+    "cancelled": 0,
+    "success_rate": 98.4
   },
   "patchthisapp": {
     "total": 100,
