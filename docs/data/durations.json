@@ -1,7 +1,7 @@
 {
   "CNAPulse": {
     "CNA Anomaly Monitor - Every 3 Hours": {
-      "avg_seconds": 192.0,
+      "avg_seconds": 191.7,
       "max_seconds": 1265.0,
       "min_seconds": 86.0,
       "run_count": 99
@@ -15,10 +15,22 @@
   },
   "CNAScoreCard": {
     "Scheduled Data Pipeline": {
-      "avg_seconds": 283.1,
+      "avg_seconds": 282.8,
       "max_seconds": 885.0,
       "min_seconds": 201.0,
       "run_count": 92
+    },
+    "github_actions in /. - Update #1716491124": {
+      "avg_seconds": 42.0,
+      "max_seconds": 42.0,
+      "min_seconds": 42.0,
+      "run_count": 1
+    },
+    "pip in /. - Update #1716491116": {
+      "avg_seconds": 62.0,
+      "max_seconds": 62.0,
+      "min_seconds": 62.0,
+      "run_count": 1
     },
     "pip in /. - Update #1698344846": {
       "avg_seconds": 56.0,
@@ -55,18 +67,6 @@
       "max_seconds": 55.0,
       "min_seconds": 55.0,
       "run_count": 1
-    },
-    "github_actions in /. - Update #1645236392": {
-      "avg_seconds": 56.0,
-      "max_seconds": 56.0,
-      "min_seconds": 56.0,
-      "run_count": 1
-    },
-    "pip in /. - Update #1645236381": {
-      "avg_seconds": 60.0,
-      "max_seconds": 60.0,
-      "min_seconds": 60.0,
-      "run_count": 1
     }
   },
   "CVE-Updates": {
@@ -77,7 +77,7 @@
       "run_count": 21
     },
     "CVE Update Report": {
-      "avg_seconds": 477.9,
+      "avg_seconds": 450.2,
       "max_seconds": 1133.0,
       "min_seconds": 291.0,
       "run_count": 20
@@ -85,7 +85,7 @@
   },
   "CVEForecast": {
     "CVE Forecast Daily Update": {
-      "avg_seconds": 706.4,
+      "avg_seconds": 718.0,
       "max_seconds": 1642.0,
       "min_seconds": 402.0,
       "run_count": 33
@@ -161,39 +161,27 @@
       "max_seconds": 63.0,
       "min_seconds": 63.0,
       "run_count": 1
-    },
-    "pip in /. - Update #1639676866": {
-      "avg_seconds": 61.0,
-      "max_seconds": 61.0,
-      "min_seconds": 61.0,
-      "run_count": 1
-    },
-    "github_actions in /. - Update #1639676863": {
-      "avg_seconds": 56.0,
-      "max_seconds": 56.0,
-      "min_seconds": 56.0,
-      "run_count": 1
     }
   },
   "CVEMaps": {
     "Update CVE Map Data": {
-      "avg_seconds": 505.6,
+      "avg_seconds": 507.6,
       "max_seconds": 638.0,
       "min_seconds": 98.0,
-      "run_count": 48
+      "run_count": 51
     }
   },
   "CVETime": {
     "Update CVE Summary and Deploy": {
-      "avg_seconds": 433.6,
-      "max_seconds": 518.0,
+      "avg_seconds": 426.6,
+      "max_seconds": 504.0,
       "min_seconds": 298.0,
       "run_count": 30
     }
   },
   "EPSS-History": {
     "Daily EPSS Download": {
-      "avg_seconds": 386.6,
+      "avg_seconds": 385.8,
       "max_seconds": 3937.0,
       "min_seconds": 132.0,
       "run_count": 30
@@ -204,7 +192,7 @@
       "avg_seconds": 35.9,
       "max_seconds": 61.0,
       "min_seconds": 25.0,
-      "run_count": 16
+      "run_count": 15
     },
     "Ghost Hunter - Automated CVE Hunt": {
       "avg_seconds": 19502.6,
@@ -215,10 +203,10 @@
   },
   "RBP": {
     "Build and Deploy": {
-      "avg_seconds": 870.7,
+      "avg_seconds": 881.8,
       "max_seconds": 2268.0,
       "min_seconds": 61.0,
-      "run_count": 90
+      "run_count": 89
     },
     "Tests": {
       "avg_seconds": 76.7,
@@ -232,15 +220,15 @@
       "avg_seconds": 73.8,
       "max_seconds": 282.0,
       "min_seconds": 26.0,
-      "run_count": 94
+      "run_count": 93
     }
   },
   "VulnRadar": {
     "CI": {
-      "avg_seconds": 27.9,
+      "avg_seconds": 28.4,
       "max_seconds": 33.0,
       "min_seconds": 24.0,
-      "run_count": 9
+      "run_count": 7
     },
     "github_actions in /. - Update #1710583017": {
       "avg_seconds": 43.0,
@@ -257,21 +245,21 @@
   },
   "VulnRadar-Demo": {
     "VulnRadar Notifications": {
-      "avg_seconds": 32.3,
+      "avg_seconds": 32.6,
       "max_seconds": 50.0,
       "min_seconds": 24.0,
       "run_count": 67
     },
     "Update Vulnerability Radar Data": {
-      "avg_seconds": 507.6,
+      "avg_seconds": 517.4,
       "max_seconds": 664.0,
-      "min_seconds": 327.0,
+      "min_seconds": 363.0,
       "run_count": 33
     }
   },
   "consensus-engine": {
     "Ingest & Compute Drift": {
-      "avg_seconds": 843.3,
+      "avg_seconds": 842.2,
       "max_seconds": 2150.0,
       "min_seconds": 665.0,
       "run_count": 97
@@ -279,24 +267,60 @@
   },
   "cve.icu": {
     "pages build and deployment": {
-      "avg_seconds": 34.1,
-      "max_seconds": 322.0,
+      "avg_seconds": 28.0,
+      "max_seconds": 44.0,
       "min_seconds": 22.0,
       "run_count": 48
     },
     "Build and Deploy CVE.ICU": {
-      "avg_seconds": 812.9,
-      "max_seconds": 3994.0,
-      "min_seconds": 592.0,
-      "run_count": 49
+      "avg_seconds": 705.1,
+      "max_seconds": 1214.0,
+      "min_seconds": 293.0,
+      "run_count": 48
+    },
+    "Push on main": {
+      "avg_seconds": 76.0,
+      "max_seconds": 76.0,
+      "min_seconds": 76.0,
+      "run_count": 1
+    },
+    "PR #33": {
+      "avg_seconds": 57.0,
+      "max_seconds": 57.0,
+      "min_seconds": 57.0,
+      "run_count": 1
+    },
+    "CI Tests": {
+      "avg_seconds": 75.5,
+      "max_seconds": 76.0,
+      "min_seconds": 75.0,
+      "run_count": 2
     }
   },
   "cvefloodline.org": {
-    "Deploy to GitHub Pages": {
-      "avg_seconds": 35.2,
-      "max_seconds": 59.0,
-      "min_seconds": 28.0,
-      "run_count": 19
+    "CI": {
+      "avg_seconds": 19.6,
+      "max_seconds": 34.0,
+      "min_seconds": 13.0,
+      "run_count": 26
+    },
+    "pip in /pipeline - Update #1715401422": {
+      "avg_seconds": 56.0,
+      "max_seconds": 56.0,
+      "min_seconds": 56.0,
+      "run_count": 1
+    },
+    "github_actions in /. - Update #1715401420": {
+      "avg_seconds": 42.0,
+      "max_seconds": 42.0,
+      "min_seconds": 42.0,
+      "run_count": 1
+    },
+    "npm_and_yarn in /web - Update #1715401427": {
+      "avg_seconds": 64.0,
+      "max_seconds": 64.0,
+      "min_seconds": 64.0,
+      "run_count": 1
     },
     "Daily floodline update": {
       "avg_seconds": 69.6,
@@ -304,11 +328,11 @@
       "min_seconds": 52.0,
       "run_count": 29
     },
-    "CI": {
-      "avg_seconds": 20.0,
-      "max_seconds": 34.0,
-      "min_seconds": 13.0,
-      "run_count": 23
+    "Deploy to GitHub Pages": {
+      "avg_seconds": 35.2,
+      "max_seconds": 59.0,
+      "min_seconds": 28.0,
+      "run_count": 19
     },
     "github_actions in /. - Update #1697049402": {
       "avg_seconds": 35.0,
@@ -385,13 +409,13 @@
   },
   "org-health": {
     "pages build and deployment": {
-      "avg_seconds": 72.2,
+      "avg_seconds": 72.3,
       "max_seconds": 316.0,
       "min_seconds": 34.0,
       "run_count": 30
     },
     "Update Org Health Data": {
-      "avg_seconds": 125.8,
+      "avg_seconds": 127.0,
       "max_seconds": 203.0,
       "min_seconds": 101.0,
       "run_count": 28
@@ -661,10 +685,10 @@
   },
   "rogolabs.net": {
     "Check Links": {
-      "avg_seconds": 122.0,
-      "max_seconds": 561.0,
+      "avg_seconds": 12.2,
+      "max_seconds": 14.0,
       "min_seconds": 11.0,
-      "run_count": 5
+      "run_count": 4
     },
     "Deploy to GitHub Pages": {
       "avg_seconds": 44.5,
