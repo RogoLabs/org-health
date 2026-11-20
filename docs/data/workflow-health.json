@@ -14,25 +14,25 @@
     "success_rate": 99.0
   },
   "CVE-Updates": {
-    "total": 52,
-    "success": 42,
+    "total": 53,
+    "success": 44,
     "failure": 0,
-    "cancelled": 10,
-    "success_rate": 80.8
+    "cancelled": 9,
+    "success_rate": 83.0
   },
   "CVEForecast": {
     "total": 56,
-    "success": 43,
-    "failure": 13,
+    "success": 42,
+    "failure": 14,
     "cancelled": 0,
-    "success_rate": 76.8
+    "success_rate": 75.0
   },
   "CVEMaps": {
-    "total": 51,
-    "success": 48,
-    "failure": 3,
+    "total": 54,
+    "success": 50,
+    "failure": 4,
     "cancelled": 0,
-    "success_rate": 94.1
+    "success_rate": 92.6
   },
   "CVETime": {
     "total": 30,
@@ -50,31 +50,31 @@
   },
   "GhostCVEs": {
     "total": 31,
-    "success": 24,
+    "success": 25,
     "failure": 0,
     "cancelled": 6,
-    "success_rate": 77.4
+    "success_rate": 80.6
   },
   "RBP": {
-    "total": 98,
-    "success": 85,
+    "total": 96,
+    "success": 83,
     "failure": 13,
     "cancelled": 0,
-    "success_rate": 86.7
+    "success_rate": 86.5
   },
   "SADP-Tracker": {
-    "total": 93,
-    "success": 92,
+    "total": 91,
+    "success": 90,
     "failure": 1,
     "cancelled": 0,
     "success_rate": 98.9
   },
   "VulnRadar": {
     "total": 100,
-    "success": 9,
+    "success": 6,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 9.0
+    "success_rate": 6.0
   },
   "VulnRadar-Demo": {
     "total": 100,
@@ -84,25 +84,25 @@
     "success_rate": 100.0
   },
   "consensus-engine": {
-    "total": 97,
-    "success": 96,
+    "total": 95,
+    "success": 94,
     "failure": 1,
     "cancelled": 0,
-    "success_rate": 99.0
+    "success_rate": 98.9
   },
   "cve.icu": {
     "total": 100,
     "success": 99,
-    "failure": 1,
+    "failure": 0,
     "cancelled": 0,
     "success_rate": 99.0
   },
   "cvefloodline.org": {
-    "total": 96,
-    "success": 90,
+    "total": 100,
+    "success": 93,
     "failure": 2,
-    "cancelled": 4,
-    "success_rate": 93.8
+    "cancelled": 5,
+    "success_rate": 93.0
   },
   "org-health": {
     "total": 60,
