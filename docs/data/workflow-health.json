@@ -14,25 +14,25 @@
     "success_rate": 99.0
   },
   "CVE-Updates": {
-    "total": 53,
-    "success": 44,
+    "total": 54,
+    "success": 46,
     "failure": 0,
-    "cancelled": 9,
-    "success_rate": 83.0
+    "cancelled": 8,
+    "success_rate": 85.2
   },
   "CVEForecast": {
     "total": 56,
-    "success": 42,
-    "failure": 14,
+    "success": 43,
+    "failure": 13,
     "cancelled": 0,
-    "success_rate": 75.0
+    "success_rate": 76.8
   },
   "CVEMaps": {
-    "total": 54,
-    "success": 50,
+    "total": 57,
+    "success": 53,
     "failure": 4,
     "cancelled": 0,
-    "success_rate": 92.6
+    "success_rate": 93.0
   },
   "CVETime": {
     "total": 30,
@@ -50,24 +50,24 @@
   },
   "GhostCVEs": {
     "total": 31,
-    "success": 25,
+    "success": 24,
     "failure": 0,
     "cancelled": 6,
-    "success_rate": 80.6
+    "success_rate": 77.4
   },
   "RBP": {
-    "total": 96,
-    "success": 83,
+    "total": 94,
+    "success": 81,
     "failure": 13,
     "cancelled": 0,
-    "success_rate": 86.5
+    "success_rate": 86.2
   },
   "SADP-Tracker": {
-    "total": 91,
-    "success": 90,
-    "failure": 1,
+    "total": 89,
+    "success": 87,
+    "failure": 2,
     "cancelled": 0,
-    "success_rate": 98.9
+    "success_rate": 97.8
   },
   "VulnRadar": {
     "total": 100,
@@ -84,25 +84,25 @@
     "success_rate": 100.0
   },
   "consensus-engine": {
-    "total": 95,
+    "total": 94,
     "success": 94,
-    "failure": 1,
+    "failure": 0,
     "cancelled": 0,
-    "success_rate": 98.9
+    "success_rate": 100.0
   },
   "cve.icu": {
     "total": 100,
-    "success": 99,
+    "success": 100,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 99.0
+    "success_rate": 100.0
   },
   "cvefloodline.org": {
-    "total": 100,
+    "total": 98,
     "success": 93,
-    "failure": 2,
+    "failure": 0,
     "cancelled": 5,
-    "success_rate": 93.0
+    "success_rate": 94.9
   },
   "org-health": {
     "total": 60,
@@ -113,10 +113,10 @@
   },
   "patchthisapp": {
     "total": 100,
-    "success": 97,
-    "failure": 3,
+    "success": 96,
+    "failure": 4,
     "cancelled": 0,
-    "success_rate": 97.0
+    "success_rate": 96.0
   },
   "quarry": {
     "total": 32,
