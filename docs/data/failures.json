@@ -1,18 +1,66 @@
 [
   {
+    "repo": "CVEMaps",
+    "workflow": "Update CVE Map Data",
+    "run_id": 45408671871,
+    "created_at": "2026-11-24T13:56:42Z",
+    "html_url": "https://github.com/RogoLabs/CVEMaps/actions/runs/45408671871",
+    "error": "Build failed! Check the logs for details."
+  },
+  {
+    "repo": "CNAPulse",
+    "workflow": "CNA Anomaly Monitor - Every 3 Hours",
+    "run_id": 45408665249,
+    "created_at": "2026-11-24T13:56:40Z",
+    "html_url": "https://github.com/RogoLabs/CNAPulse/actions/runs/45408665249",
+    "error": "Error: No artifacts named \"github-pages\" were found for this workflow run. Ensure artifacts are uploaded with actions/upload-artifact@v4 or later."
+  },
+  {
+    "repo": "CNAPulse",
+    "workflow": "CNA Anomaly Monitor - Every 3 Hours",
+    "run_id": 45358200244,
+    "created_at": "2026-11-24T08:40:35Z",
+    "html_url": "https://github.com/RogoLabs/CNAPulse/actions/runs/45358200244",
+    "error": "Error: No artifacts named \"github-pages\" were found for this workflow run. Ensure artifacts are uploaded with actions/upload-artifact@v4 or later."
+  },
+  {
+    "repo": "CVEMaps",
+    "workflow": "Update CVE Map Data",
+    "run_id": 45355609981,
+    "created_at": "2026-11-24T08:22:54Z",
+    "html_url": "https://github.com/RogoLabs/CVEMaps/actions/runs/45355609981",
+    "error": "Build failed! Check the logs for details."
+  },
+  {
+    "repo": "CVEForecast",
+    "workflow": "CVE Forecast Daily Update",
+    "run_id": 45350926946,
+    "created_at": "2026-11-24T07:49:06Z",
+    "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/45350926946",
+    "error": "Error: No artifacts named \"github-pages\" were found for this workflow run. Ensure artifacts are uploaded with actions/upload-artifact@v4 or later."
+  },
+  {
+    "repo": "CNAScoreCard",
+    "workflow": "Scheduled Data Pipeline",
+    "run_id": 45319989049,
+    "created_at": "2026-11-24T03:30:29Z",
+    "html_url": "https://github.com/RogoLabs/CNAScoreCard/actions/runs/45319989049",
+    "error": "Error: No artifacts named \"github-pages\" were found for this workflow run. Ensure artifacts are uploaded with actions/upload-artifact@v4 or later."
+  },
+  {
+    "repo": "CNAPulse",
+    "workflow": "CNA Anomaly Monitor - Every 3 Hours",
+    "run_id": 45288859827,
+    "created_at": "2026-11-23T23:26:40Z",
+    "html_url": "https://github.com/RogoLabs/CNAPulse/actions/runs/45288859827",
+    "error": "Error: No artifacts named \"github-pages\" were found for this workflow run. Ensure artifacts are uploaded with actions/upload-artifact@v4 or later."
+  },
+  {
     "repo": "CNAScoreCard",
     "workflow": "Scheduled Data Pipeline",
     "run_id": 45110781922,
     "created_at": "2026-11-23T04:15:53Z",
     "html_url": "https://github.com/RogoLabs/CNAScoreCard/actions/runs/45110781922",
-    "error": "Error: No artifacts named \"github-pages\" were found for this workflow run. Ensure artifacts are uploaded with actions/upload-artifact@v4 or later."
-  },
-  {
-    "repo": "GhostCVEs",
-    "workflow": "Deploy GitHub Pages Dashboard",
-    "run_id": 44943178016,
-    "created_at": "2026-11-21T19:51:35Z",
-    "html_url": "https://github.com/RogoLabs/GhostCVEs/actions/runs/44943178016",
     "error": "Error: No artifacts named \"github-pages\" were found for this workflow run. Ensure artifacts are uploaded with actions/upload-artifact@v4 or later."
   },
   {
@@ -32,22 +80,6 @@
     "error": "Build failed! Check the logs for details."
   },
   {
-    "repo": "CVEMaps",
-    "workflow": "Update CVE Map Data",
-    "run_id": 43369333874,
-    "created_at": "2026-11-13T05:02:11Z",
-    "html_url": "https://github.com/RogoLabs/CVEMaps/actions/runs/43369333874",
-    "error": "Build failed! Check the logs for details."
-  },
-  {
-    "repo": "CVEMaps",
-    "workflow": "Update CVE Map Data",
-    "run_id": 42765129309,
-    "created_at": "2026-11-10T05:55:27Z",
-    "html_url": "https://github.com/RogoLabs/CVEMaps/actions/runs/42765129309",
-    "error": "Build failed! Check the logs for details."
-  },
-  {
     "repo": "CNAScoreCard",
     "workflow": "Scheduled Data Pipeline",
     "run_id": 42555129435,
@@ -64,27 +96,11 @@
     "error": "Timeout reached, aborting!"
   },
   {
-    "repo": "CVEMaps",
-    "workflow": "Update CVE Map Data",
-    "run_id": 41715671686,
-    "created_at": "2026-11-03T20:46:39Z",
-    "html_url": "https://github.com/RogoLabs/CVEMaps/actions/runs/41715671686",
-    "error": "Build failed! Check the logs for details."
-  },
-  {
     "repo": "CVEForecast",
     "workflow": "Tests",
     "run_id": 41638197151,
     "created_at": "2026-11-03T12:44:03Z",
     "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/41638197151",
-    "error": "Process completed with exit code 1."
-  },
-  {
-    "repo": "RBP",
-    "workflow": "Tests",
-    "run_id": 41469516130,
-    "created_at": "2026-11-02T15:13:48Z",
-    "html_url": "https://github.com/RogoLabs/RBP/actions/runs/41469516130",
     "error": "Process completed with exit code 1."
   },
   {
@@ -101,14 +117,6 @@
     "run_id": 41269973671,
     "created_at": "2026-11-01T03:38:17Z",
     "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/41269973671",
-    "error": "Process completed with exit code 1."
-  },
-  {
-    "repo": "RBP",
-    "workflow": "Tests",
-    "run_id": 41215314037,
-    "created_at": "2026-10-31T15:32:10Z",
-    "html_url": "https://github.com/RogoLabs/RBP/actions/runs/41215314037",
     "error": "Process completed with exit code 1."
   },
   {
@@ -149,14 +157,6 @@
     "run_id": 40552275635,
     "created_at": "2026-10-27T17:37:01Z",
     "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/40552275635",
-    "error": "Process completed with exit code 1."
-  },
-  {
-    "repo": "CVEForecast",
-    "workflow": "CVE Forecast Daily Update",
-    "run_id": 40442512459,
-    "created_at": "2026-10-27T03:08:43Z",
-    "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/40442512459",
     "error": "Process completed with exit code 1."
   }
 ]
