@@ -80,6 +80,22 @@
     "error": "Build failed! Check the logs for details."
   },
   {
+    "repo": "CVEMaps",
+    "workflow": "Update CVE Map Data",
+    "run_id": 43369333874,
+    "created_at": "2026-11-13T05:02:11Z",
+    "html_url": "https://github.com/RogoLabs/CVEMaps/actions/runs/43369333874",
+    "error": "Build failed! Check the logs for details."
+  },
+  {
+    "repo": "CVEMaps",
+    "workflow": "Update CVE Map Data",
+    "run_id": 42765129309,
+    "created_at": "2026-11-10T05:55:27Z",
+    "html_url": "https://github.com/RogoLabs/CVEMaps/actions/runs/42765129309",
+    "error": "Build failed! Check the logs for details."
+  },
+  {
     "repo": "CNAScoreCard",
     "workflow": "Scheduled Data Pipeline",
     "run_id": 42555129435,
@@ -94,6 +110,14 @@
     "created_at": "2026-11-05T19:34:01Z",
     "html_url": "https://github.com/RogoLabs/CNAPulse/actions/runs/42095104778",
     "error": "Timeout reached, aborting!"
+  },
+  {
+    "repo": "CVEMaps",
+    "workflow": "Update CVE Map Data",
+    "run_id": 41715671686,
+    "created_at": "2026-11-03T20:46:39Z",
+    "html_url": "https://github.com/RogoLabs/CVEMaps/actions/runs/41715671686",
+    "error": "Build failed! Check the logs for details."
   },
   {
     "repo": "CVEForecast",
@@ -133,30 +157,6 @@
     "run_id": 40813936218,
     "created_at": "2026-10-29T03:45:35Z",
     "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/40813936218",
-    "error": "Process completed with exit code 1."
-  },
-  {
-    "repo": "CVEForecast",
-    "workflow": "CVE Forecast Daily Update",
-    "run_id": 40626275961,
-    "created_at": "2026-10-28T03:22:08Z",
-    "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/40626275961",
-    "error": "Process completed with exit code 1."
-  },
-  {
-    "repo": "CVEForecast",
-    "workflow": "Tests",
-    "run_id": 40552672422,
-    "created_at": "2026-10-27T17:39:37Z",
-    "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/40552672422",
-    "error": "Process completed with exit code 1."
-  },
-  {
-    "repo": "CVEForecast",
-    "workflow": "CVE Forecast Daily Update",
-    "run_id": 40552275635,
-    "created_at": "2026-10-27T17:37:01Z",
-    "html_url": "https://github.com/RogoLabs/CVEForecast/actions/runs/40552275635",
     "error": "Process completed with exit code 1."
   }
 ]
