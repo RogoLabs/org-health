@@ -7,32 +7,32 @@
     "success_rate": 95.7
   },
   "CNAScoreCard": {
-    "total": 100,
-    "success": 97,
+    "total": 97,
+    "success": 94,
     "failure": 3,
     "cancelled": 0,
-    "success_rate": 97.0
+    "success_rate": 96.9
   },
   "CVE-Updates": {
-    "total": 59,
-    "success": 56,
+    "total": 60,
+    "success": 58,
     "failure": 0,
-    "cancelled": 3,
-    "success_rate": 94.9
+    "cancelled": 2,
+    "success_rate": 96.7
   },
   "CVEForecast": {
     "total": 54,
-    "success": 47,
-    "failure": 7,
-    "cancelled": 0,
-    "success_rate": 87.0
-  },
-  "CVEMaps": {
-    "total": 75,
-    "success": 69,
+    "success": 48,
     "failure": 6,
     "cancelled": 0,
-    "success_rate": 92.0
+    "success_rate": 88.9
+  },
+  "CVEMaps": {
+    "total": 77,
+    "success": 71,
+    "failure": 6,
+    "cancelled": 0,
+    "success_rate": 92.2
   },
   "CVETime": {
     "total": 30,
@@ -52,29 +52,29 @@
     "total": 32,
     "success": 21,
     "failure": 2,
-    "cancelled": 8,
+    "cancelled": 9,
     "success_rate": 65.6
   },
   "RBP": {
-    "total": 83,
-    "success": 73,
-    "failure": 10,
+    "total": 74,
+    "success": 72,
+    "failure": 2,
     "cancelled": 0,
-    "success_rate": 88.0
+    "success_rate": 97.3
   },
   "SADP-Tracker": {
-    "total": 82,
-    "success": 77,
+    "total": 81,
+    "success": 76,
     "failure": 5,
     "cancelled": 0,
-    "success_rate": 93.9
+    "success_rate": 93.8
   },
   "VulnRadar": {
     "total": 100,
-    "success": 8,
+    "success": 6,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 8.0
+    "success_rate": 6.0
   },
   "VulnRadar-Demo": {
     "total": 100,
@@ -84,18 +84,18 @@
     "success_rate": 100.0
   },
   "consensus-engine": {
-    "total": 85,
-    "success": 85,
+    "total": 83,
+    "success": 83,
     "failure": 0,
     "cancelled": 0,
     "success_rate": 100.0
   },
   "cve.icu": {
     "total": 100,
-    "success": 100,
+    "success": 99,
     "failure": 0,
     "cancelled": 0,
-    "success_rate": 100.0
+    "success_rate": 99.0
   },
   "cvefloodline.org": {
     "total": 100,
